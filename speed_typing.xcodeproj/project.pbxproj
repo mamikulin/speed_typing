@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AAEEB5A2BFC11D400BE62E5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AAEEB432BFC11D400BE62E5 /* icon.png */; };
+		8AAEEB5B2BFC11D400BE62E5 /* speed_typing-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AAEEB442BFC11D400BE62E5 /* speed_typing-Info.plist */; };
+		8AAEEB5D2BFC11D400BE62E5 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AAEEB4E2BFC11D400BE62E5 /* Roboto-BoldItalic.ttf */; };
+		8AAEEB5F2BFC11D400BE62E5 /* users.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8AAEEB512BFC11D400BE62E5 /* users.txt */; };
+		8AAEEB872BFC129A00BE62E5 /* UserManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AAEEB772BFC129900BE62E5 /* UserManager.cpp */; };
+		8AAEEB882BFC129A00BE62E5 /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AAEEB7B2BFC129900BE62E5 /* Menu.cpp */; };
+		8AAEEB892BFC129A00BE62E5 /* TextBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AAEEB7C2BFC129900BE62E5 /* TextBox.cpp */; };
+		8AAEEB8A2BFC129A00BE62E5 /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AAEEB7D2BFC129900BE62E5 /* Button.cpp */; };
+		8AAEEB8B2BFC129A00BE62E5 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8AAEEB7F2BFC129900BE62E5 /* ResourcePath.mm */; };
+		8AAEEB8C2BFC129A00BE62E5 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AAEEB812BFC129900BE62E5 /* Roboto-BoldItalic.ttf */; };
+		8AAEEB8D2BFC129A00BE62E5 /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AAEEB822BFC129900BE62E5 /* User.cpp */; };
+		8AAEEB8E2BFC129A00BE62E5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AAEEB832BFC129A00BE62E5 /* main.cpp */; };
+		8AAEEB8F2BFC129A00BE62E5 /* ModeStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AAEEB852BFC129A00BE62E5 /* ModeStrategy.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8AAEEB062BFC0CFE00BE62E5 /* speed_typing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speed_typing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAEEB432BFC11D400BE62E5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		8AAEEB442BFC11D400BE62E5 /* speed_typing-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "speed_typing-Info.plist"; sourceTree = "<group>"; };
+		8AAEEB4E2BFC11D400BE62E5 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8AAEEB512BFC11D400BE62E5 /* users.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = users.txt; sourceTree = "<group>"; };
+		8AAEEB762BFC129900BE62E5 /* User.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = User.hpp; sourceTree = "<group>"; };
+		8AAEEB772BFC129900BE62E5 /* UserManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserManager.cpp; sourceTree = "<group>"; };
+		8AAEEB782BFC129900BE62E5 /* TextBox.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TextBox.hpp; sourceTree = "<group>"; };
+		8AAEEB792BFC129900BE62E5 /* UserManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UserManager.hpp; sourceTree = "<group>"; };
+		8AAEEB7A2BFC129900BE62E5 /* ResourcePath.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		8AAEEB7B2BFC129900BE62E5 /* Menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Menu.cpp; sourceTree = "<group>"; };
+		8AAEEB7C2BFC129900BE62E5 /* TextBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextBox.cpp; sourceTree = "<group>"; };
+		8AAEEB7D2BFC129900BE62E5 /* Button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Button.cpp; sourceTree = "<group>"; };
+		8AAEEB7E2BFC129900BE62E5 /* Menu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Menu.hpp; sourceTree = "<group>"; };
+		8AAEEB7F2BFC129900BE62E5 /* ResourcePath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		8AAEEB812BFC129900BE62E5 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8AAEEB822BFC129900BE62E5 /* User.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = User.cpp; sourceTree = "<group>"; };
+		8AAEEB832BFC129A00BE62E5 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8AAEEB842BFC129A00BE62E5 /* ModeStrategy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ModeStrategy.hpp; sourceTree = "<group>"; };
+		8AAEEB852BFC129A00BE62E5 /* ModeStrategy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ModeStrategy.cpp; sourceTree = "<group>"; };
+		8AAEEB862BFC129A00BE62E5 /* Button.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Button.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AAEEB022BFC0CFE00BE62E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AAEEAFC2BFC0CFE00BE62E5 = {
+			isa = PBXGroup;
+			children = (
+				8AAEEB422BFC11D400BE62E5 /* speed_typing */,
+				8AAEEB072BFC0CFE00BE62E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AAEEB072BFC0CFE00BE62E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AAEEB062BFC0CFE00BE62E5 /* speed_typing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AAEEB422BFC11D400BE62E5 /* speed_typing */ = {
+			isa = PBXGroup;
+			children = (
+				8AAEEB932BFC180600BE62E5 /* include */,
+				8AAEEB922BFC17E000BE62E5 /* src */,
+				8AAEEB7F2BFC129900BE62E5 /* ResourcePath.mm */,
+				8AAEEB802BFC129900BE62E5 /* Resources */,
+				8AAEEB432BFC11D400BE62E5 /* icon.png */,
+				8AAEEB442BFC11D400BE62E5 /* speed_typing-Info.plist */,
+				8AAEEB4D2BFC11D400BE62E5 /* Resources */,
+				8AAEEB512BFC11D400BE62E5 /* users.txt */,
+			);
+			path = speed_typing;
+			sourceTree = "<group>";
+		};
+		8AAEEB4D2BFC11D400BE62E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8AAEEB4E2BFC11D400BE62E5 /* Roboto-BoldItalic.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8AAEEB802BFC129900BE62E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8AAEEB812BFC129900BE62E5 /* Roboto-BoldItalic.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8AAEEB922BFC17E000BE62E5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8AAEEB7D2BFC129900BE62E5 /* Button.cpp */,
+				8AAEEB832BFC129A00BE62E5 /* main.cpp */,
+				8AAEEB7B2BFC129900BE62E5 /* Menu.cpp */,
+				8AAEEB852BFC129A00BE62E5 /* ModeStrategy.cpp */,
+				8AAEEB7C2BFC129900BE62E5 /* TextBox.cpp */,
+				8AAEEB822BFC129900BE62E5 /* User.cpp */,
+				8AAEEB772BFC129900BE62E5 /* UserManager.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		8AAEEB932BFC180600BE62E5 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8AAEEB862BFC129A00BE62E5 /* Button.hpp */,
+				8AAEEB7E2BFC129900BE62E5 /* Menu.hpp */,
+				8AAEEB842BFC129A00BE62E5 /* ModeStrategy.hpp */,
+				8AAEEB7A2BFC129900BE62E5 /* ResourcePath.hpp */,
+				8AAEEB782BFC129900BE62E5 /* TextBox.hpp */,
+				8AAEEB762BFC129900BE62E5 /* User.hpp */,
+				8AAEEB792BFC129900BE62E5 /* UserManager.hpp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AAEEB052BFC0CFE00BE62E5 /* speed_typing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AAEEB1B2BFC0CFE00BE62E5 /* Build configuration list for PBXNativeTarget "speed_typing" */;
+			buildPhases = (
+				8AAEEB012BFC0CFE00BE62E5 /* Sources */,
+				8AAEEB022BFC0CFE00BE62E5 /* Frameworks */,
+				8AAEEB032BFC0CFE00BE62E5 /* Resources */,
+				8AAEEB042BFC0CFE00BE62E5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = speed_typing;
+			productName = speed_typing;
+			productReference = 8AAEEB062BFC0CFE00BE62E5 /* speed_typing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AAEEAFD2BFC0CFE00BE62E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "My Organization name";
+				TargetAttributes = {
+					8AAEEB052BFC0CFE00BE62E5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8AAEEB002BFC0CFE00BE62E5 /* Build configuration list for PBXProject "speed_typing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AAEEAFC2BFC0CFE00BE62E5;
+			productRefGroup = 8AAEEB072BFC0CFE00BE62E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AAEEB052BFC0CFE00BE62E5 /* speed_typing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AAEEB032BFC0CFE00BE62E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAEEB8C2BFC129A00BE62E5 /* Roboto-BoldItalic.ttf in Resources */,
+				8AAEEB5D2BFC11D400BE62E5 /* Roboto-BoldItalic.ttf in Resources */,
+				8AAEEB5F2BFC11D400BE62E5 /* users.txt in Resources */,
+				8AAEEB5A2BFC11D400BE62E5 /* icon.png in Resources */,
+				8AAEEB5B2BFC11D400BE62E5 /* speed_typing-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AAEEB042BFC0CFE00BE62E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nSFML_DEPENDENCIES_INSTALL_PREFIX=\"\"\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Users/sfml/Desktop/package/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/Users/sfml/Desktop/package/tmp/install/Library/Frameworks/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AAEEB012BFC0CFE00BE62E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAEEB8D2BFC129A00BE62E5 /* User.cpp in Sources */,
+				8AAEEB8F2BFC129A00BE62E5 /* ModeStrategy.cpp in Sources */,
+				8AAEEB882BFC129A00BE62E5 /* Menu.cpp in Sources */,
+				8AAEEB892BFC129A00BE62E5 /* TextBox.cpp in Sources */,
+				8AAEEB8B2BFC129A00BE62E5 /* ResourcePath.mm in Sources */,
+				8AAEEB8E2BFC129A00BE62E5 /* main.cpp in Sources */,
+				8AAEEB872BFC129A00BE62E5 /* UserManager.cpp in Sources */,
+				8AAEEB8A2BFC129A00BE62E5 /* Button.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8AAEEB192BFC0CFE00BE62E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		8AAEEB1A2BFC0CFE00BE62E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		8AAEEB1C2BFC0CFE00BE62E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "speed_typing/speed_typing-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AAEEB1D2BFC0CFE00BE62E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "speed_typing/speed_typing-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AAEEB002BFC0CFE00BE62E5 /* Build configuration list for PBXProject "speed_typing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAEEB192BFC0CFE00BE62E5 /* Debug */,
+				8AAEEB1A2BFC0CFE00BE62E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AAEEB1B2BFC0CFE00BE62E5 /* Build configuration list for PBXNativeTarget "speed_typing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAEEB1C2BFC0CFE00BE62E5 /* Debug */,
+				8AAEEB1D2BFC0CFE00BE62E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AAEEAFD2BFC0CFE00BE62E5 /* Project object */;
+}
