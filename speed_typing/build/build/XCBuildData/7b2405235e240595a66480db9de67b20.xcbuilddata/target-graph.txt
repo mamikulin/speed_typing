@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+ZERO_CHECK in speed_typing, no dependencies
+speed_typing in speed_typing, depends on:
+ZERO_CHECK in speed_typing (explicit)

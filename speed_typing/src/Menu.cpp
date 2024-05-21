@@ -19,7 +19,7 @@ Menu::Menu()
       showResults(false),
       modeStrategy(nullptr) {
     window.setFramerateLimit(60);
-    if (!font.loadFromFile(resourcePath() + "Roboto-BoldItalic.ttf")) {
+    if (!font.loadFromFile(resourcePath()+"Roboto-BoldItalic.ttf")) {
         std::cerr << "Error loading font\n";
         exit(1);
     }

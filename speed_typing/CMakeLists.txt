@@ -21,7 +21,10 @@ set(SOURCES
     src/ModeStrategy.cpp
     src/Menu.cpp
     src/main.cpp
+    src/ResourcePath.cpp
+    src/ResourcePath.mm
 )
+configure_file(Resources/Roboto-BoldItalic.ttf ${CMAKE_CURRENT_BINARY_DIR}/Resources/Roboto-BoldItalic.ttf COPYONLY)
 
 add_executable(speed_typing ${SOURCES})
 

@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8DCA9828D4C94B00945ABE2A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C4D42E7E1075411F838B697D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				C8CCF0229D9BABDE526E7449 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				EF244C862D7C4B9CA836BB08 /* PBXTargetDependency */,
+				5BE07E7039DF4DF09EC300ED /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		A4DADDA058B54CCFA88888C2 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FA800A3A43A74E2A8170F136 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				C56E53741679B6D67183DBAC /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0855DECEB08B4018B6067661 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7DEEFC6D38634296BA62C61F /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/CMakeLists.txt */; };
+		5A0B5EF5899444F1A1737398 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/TextBox.cpp */ = {isa = PBXBuildFile; fileRef = 198BFD2C1E70430984BE639B /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/TextBox.cpp */; };
+		8036DAC57EF146ACAB63E1E2 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/UserManager.cpp */ = {isa = PBXBuildFile; fileRef = 349E6955E4FB4D2BB65E4C58 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/UserManager.cpp */; };
+		856B1FE991E4422981E81A92 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/ModeStrategy.cpp */ = {isa = PBXBuildFile; fileRef = 6C0A04F59DE44FF4B6F7FBFD /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/ModeStrategy.cpp */; };
+		85F7B2AD726A47B19CF38C35 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/Button.cpp */ = {isa = PBXBuildFile; fileRef = B316FC62EC0E460893050C5F /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/Button.cpp */; };
+		944817DA9EF14BD6BF12A485 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/Menu.cpp */ = {isa = PBXBuildFile; fileRef = 9C2454A5251C4100BE1906D1 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/Menu.cpp */; };
+		94AF59026AA143C4BB1097EC /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 54E9BF12066B48DAB453E1BE /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/main.cpp */; };
+		9D7CD34DBEAE42E5B66EBAC1 /* /Library/Frameworks/sfml-system.framework */ = {isa = PBXBuildFile; fileRef = 0AD88FB9395C4A55884876B7 /* /Library/Frameworks/sfml-system.framework */; };
+		AFCB1B83EE044FC5A2BCDD59 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/ResourcePath.mm */ = {isa = PBXBuildFile; fileRef = 4E8E269EE46D43E68D8FFAF0 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/ResourcePath.mm */; };
+		BD8CD44D935B4D3D8B9F46DC /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/User.cpp */ = {isa = PBXBuildFile; fileRef = DE2C9A1FC45745C99BA15314 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/User.cpp */; };
+		D5F3696AE9904BCA99B8C4C5 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/ResourcePath.cpp */ = {isa = PBXBuildFile; fileRef = B0EF82D35180442C868951FF /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/ResourcePath.cpp */; };
+		D7BEE0228D60465BAB7F89AB /* /Library/Frameworks/sfml-window.framework */ = {isa = PBXBuildFile; fileRef = 55423B5DC72445CAB78B5DB7 /* /Library/Frameworks/sfml-window.framework */; };
+		DCAC65E070114083ABCD0610 /* /Library/Frameworks/sfml-graphics.framework */ = {isa = PBXBuildFile; fileRef = 0C00FC44D022429EB1A20287 /* /Library/Frameworks/sfml-graphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		204DAAC683484B7BA5E114DA /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		4566A34A980D45F3960EA754 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		524C0F556CA240FC922E6196 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		AB254E5E1E7143C8992A23B0 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2E40919B82F24599A832A498 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13661DD15D874EB3AA209CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DADDA058B54CCFA88888C2;
+			remoteInfo = ZERO_CHECK;
+		};
+		4BCBA7AC0CCB401A9518B6F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13661DD15D874EB3AA209CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DADDA058B54CCFA88888C2;
+			remoteInfo = ZERO_CHECK;
+		};
+		D23291CFF6E440048AEE312D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13661DD15D874EB3AA209CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7080ACF30F6F4A20B7B25D49;
+			remoteInfo = speed_typing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006C1B13BED54DB781741866 /* speed_typing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = speed_typing; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD88FB9395C4A55884876B7 /* /Library/Frameworks/sfml-system.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "/Library/Frameworks/sfml-system.framework"; sourceTree = "<absolute>"; };
+		0C00FC44D022429EB1A20287 /* /Library/Frameworks/sfml-graphics.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "/Library/Frameworks/sfml-graphics.framework"; sourceTree = "<absolute>"; };
+		198BFD2C1E70430984BE639B /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/TextBox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextBox.cpp; path = src/TextBox.cpp; sourceTree = SOURCE_ROOT; };
+		349E6955E4FB4D2BB65E4C58 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/UserManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UserManager.cpp; path = src/UserManager.cpp; sourceTree = SOURCE_ROOT; };
+		4E8E269EE46D43E68D8FFAF0 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/ResourcePath.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ResourcePath.mm; path = src/ResourcePath.mm; sourceTree = SOURCE_ROOT; };
+		54E9BF12066B48DAB453E1BE /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		55423B5DC72445CAB78B5DB7 /* /Library/Frameworks/sfml-window.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "/Library/Frameworks/sfml-window.framework"; sourceTree = "<absolute>"; };
+		5CF542E7DF2743CA903BF2BC /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6C0A04F59DE44FF4B6F7FBFD /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/ModeStrategy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ModeStrategy.cpp; path = src/ModeStrategy.cpp; sourceTree = SOURCE_ROOT; };
+		7DEEFC6D38634296BA62C61F /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9C2454A5251C4100BE1906D1 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/Menu.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Menu.cpp; path = src/Menu.cpp; sourceTree = SOURCE_ROOT; };
+		B0EF82D35180442C868951FF /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/ResourcePath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ResourcePath.cpp; path = src/ResourcePath.cpp; sourceTree = SOURCE_ROOT; };
+		B316FC62EC0E460893050C5F /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/Button.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Button.cpp; path = src/Button.cpp; sourceTree = SOURCE_ROOT; };
+		DE2C9A1FC45745C99BA15314 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/User.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = User.cpp; path = src/User.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A426BAB053EB413AA69E3FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		313A4FEA45904124B87AA170 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3D6C6D6DBB344441BCC26E9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				006C1B13BED54DB781741866 /* speed_typing */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74F0FB010534430E9F01F9D2 = {
+			isa = PBXGroup;
+			children = (
+				8795BA4B7B474228B3230D9F /* speed_typing */,
+				8F75BB96D2194DFE8BB0FE57 /* ALL_BUILD */,
+				3D6C6D6DBB344441BCC26E9B /* Products */,
+				E639F347BEC74643AACCD945 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8795BA4B7B474228B3230D9F /* speed_typing */ = {
+			isa = PBXGroup;
+			children = (
+				AC5818272730441C9CDBB2A8 /* Source Files */,
+				7DEEFC6D38634296BA62C61F /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/CMakeLists.txt */,
+			);
+			name = speed_typing;
+			sourceTree = "<group>";
+		};
+		8F75BB96D2194DFE8BB0FE57 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				313A4FEA45904124B87AA170 /* CMake Rules */,
+				5CF542E7DF2743CA903BF2BC /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AC5818272730441C9CDBB2A8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B316FC62EC0E460893050C5F /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/Button.cpp */,
+				9C2454A5251C4100BE1906D1 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/Menu.cpp */,
+				6C0A04F59DE44FF4B6F7FBFD /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/ModeStrategy.cpp */,
+				B0EF82D35180442C868951FF /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/ResourcePath.cpp */,
+				4E8E269EE46D43E68D8FFAF0 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/ResourcePath.mm */,
+				198BFD2C1E70430984BE639B /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/TextBox.cpp */,
+				DE2C9A1FC45745C99BA15314 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/User.cpp */,
+				349E6955E4FB4D2BB65E4C58 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/UserManager.cpp */,
+				54E9BF12066B48DAB453E1BE /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E639F347BEC74643AACCD945 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C00FC44D022429EB1A20287 /* /Library/Frameworks/sfml-graphics.framework */,
+				55423B5DC72445CAB78B5DB7 /* /Library/Frameworks/sfml-window.framework */,
+				0AD88FB9395C4A55884876B7 /* /Library/Frameworks/sfml-system.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7080ACF30F6F4A20B7B25D49 /* speed_typing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63B96F7A2E94C24B4877B9A /* Build configuration list for PBXNativeTarget "speed_typing" */;
+			buildPhases = (
+				F5C5BBC6B12F48DEBEB95EBD /* Sources */,
+				A426BAB053EB413AA69E3FE8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF295502968344E18460E1DD /* PBXTargetDependency */,
+			);
+			name = speed_typing;
+			productName = speed_typing;
+			productReference = 006C1B13BED54DB781741866 /* speed_typing */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13661DD15D874EB3AA209CA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 5D1E282F1C6A4C6CA2658F62 /* Build configuration list for PBXProject "speed_typing" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				AB254E5E1E7143C8992A23B0 /* Debug */,
+				4566A34A980D45F3960EA754 /* Release */,
+				524C0F556CA240FC922E6196 /* MinSizeRel */,
+				204DAAC683484B7BA5E114DA /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 74F0FB010534430E9F01F9D2;
+			projectDirPath = /Users/ilamatveev/Desktop/speed_typing/speed_typing;
+			projectRoot = "";
+			targets = (
+				8DCA9828D4C94B00945ABE2A /* ALL_BUILD */,
+				A4DADDA058B54CCFA88888C2 /* ZERO_CHECK */,
+				7080ACF30F6F4A20B7B25D49 /* speed_typing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C56E53741679B6D67183DBAC /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/ilamatveev/Desktop/speed_typing/speed_typing/build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/ilamatveev/Desktop/speed_typing/speed_typing/build
+  make -f /Users/ilamatveev/Desktop/speed_typing/speed_typing/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/ilamatveev/Desktop/speed_typing/speed_typing/build
+  make -f /Users/ilamatveev/Desktop/speed_typing/speed_typing/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/ilamatveev/Desktop/speed_typing/speed_typing/build
+  make -f /Users/ilamatveev/Desktop/speed_typing/speed_typing/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/ilamatveev/Desktop/speed_typing/speed_typing/build
+  make -f /Users/ilamatveev/Desktop/speed_typing/speed_typing/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		C8CCF0229D9BABDE526E7449 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/ilamatveev/Desktop/speed_typing/speed_typing/build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/ilamatveev/Desktop/speed_typing/speed_typing/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/ilamatveev/Desktop/speed_typing/speed_typing/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/ilamatveev/Desktop/speed_typing/speed_typing/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/ilamatveev/Desktop/speed_typing/speed_typing/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5C5BBC6B12F48DEBEB95EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F7B2AD726A47B19CF38C35 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/Button.cpp */,
+				944817DA9EF14BD6BF12A485 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/Menu.cpp */,
+				856B1FE991E4422981E81A92 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/ModeStrategy.cpp */,
+				D5F3696AE9904BCA99B8C4C5 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/ResourcePath.cpp */,
+				AFCB1B83EE044FC5A2BCDD59 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/ResourcePath.mm */,
+				5A0B5EF5899444F1A1737398 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/TextBox.cpp */,
+				BD8CD44D935B4D3D8B9F46DC /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/User.cpp */,
+				8036DAC57EF146ACAB63E1E2 /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/UserManager.cpp */,
+				94AF59026AA143C4BB1097EC /* /Users/ilamatveev/Desktop/speed_typing/speed_typing/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BE07E7039DF4DF09EC300ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7080ACF30F6F4A20B7B25D49 /* speed_typing */;
+			targetProxy = D23291CFF6E440048AEE312D /* PBXContainerItemProxy */;
+		};
+		AF295502968344E18460E1DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DADDA058B54CCFA88888C2 /* ZERO_CHECK */;
+			targetProxy = 2E40919B82F24599A832A498 /* PBXContainerItemProxy */;
+		};
+		EF244C862D7C4B9CA836BB08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DADDA058B54CCFA88888C2 /* ZERO_CHECK */;
+			targetProxy = 4BCBA7AC0CCB401A9518B6F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07096442F066451E810DC012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2829F76E59934E84BE925D77 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4F1D4A702F6D4EA183959CD0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		50B6AE6FE7184410882C8F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		62795C39F51D4823BB8C68EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ilamatveev/Desktop/speed_typing/speed_typing/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks,/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ilamatveev/Desktop/speed_typing/speed_typing/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Library/Frameworks/sfml-graphics.framework/Versions/2.6.1/sfml-graphics","/Library/Frameworks/sfml-window.framework/Versions/2.6.1/sfml-window","/Library/Frameworks/sfml-system.framework/Versions/2.6.1/sfml-system","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = speed_typing;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ilamatveev/Desktop/speed_typing/speed_typing/build/build/speed_typing.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6CA0401336004A21922B1D22 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/ilamatveev/Desktop/speed_typing/speed_typing/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		72464FB186064793A09257D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		89FC7C37F9964EBFB8422825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = /Users/ilamatveev/Desktop/speed_typing/speed_typing/build/build;
+			};
+			name = Debug;
+		};
+		8D014BE9A64847EEAD871D99 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ilamatveev/Desktop/speed_typing/speed_typing/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks,/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ilamatveev/Desktop/speed_typing/speed_typing/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Library/Frameworks/sfml-graphics.framework/Versions/2.6.1/sfml-graphics","/Library/Frameworks/sfml-window.framework/Versions/2.6.1/sfml-window","/Library/Frameworks/sfml-system.framework/Versions/2.6.1/sfml-system","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = speed_typing;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ilamatveev/Desktop/speed_typing/speed_typing/build/build/speed_typing.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		912AE3E3930E4227B0450E07 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9B19FBFA09444D848BCCC105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ilamatveev/Desktop/speed_typing/speed_typing/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks,/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ilamatveev/Desktop/speed_typing/speed_typing/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Library/Frameworks/sfml-graphics.framework/Versions/2.6.1/sfml-graphics","/Library/Frameworks/sfml-window.framework/Versions/2.6.1/sfml-window","/Library/Frameworks/sfml-system.framework/Versions/2.6.1/sfml-system","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = speed_typing;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ilamatveev/Desktop/speed_typing/speed_typing/build/build/speed_typing.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B77E5E246ACE4845A4917C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C344D6DAF50148D58AD831AC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/ilamatveev/Desktop/speed_typing/speed_typing/build/build;
+			};
+			name = MinSizeRel;
+		};
+		DD13B5C06FBE4810B87962D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/ilamatveev/Desktop/speed_typing/speed_typing/build/build;
+			};
+			name = Release;
+		};
+		EA4440AC3A174BBD9AD5C15C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FBDF528023F94158AB7DBFCD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ilamatveev/Desktop/speed_typing/speed_typing/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks,/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ilamatveev/Desktop/speed_typing/speed_typing/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Library/Frameworks/sfml-graphics.framework/Versions/2.6.1/sfml-graphics","/Library/Frameworks/sfml-window.framework/Versions/2.6.1/sfml-window","/Library/Frameworks/sfml-system.framework/Versions/2.6.1/sfml-system","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = speed_typing;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ilamatveev/Desktop/speed_typing/speed_typing/build/build/speed_typing.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D1E282F1C6A4C6CA2658F62 /* Build configuration list for PBXProject "speed_typing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FC7C37F9964EBFB8422825 /* Debug */,
+				DD13B5C06FBE4810B87962D2 /* Release */,
+				C344D6DAF50148D58AD831AC /* MinSizeRel */,
+				6CA0401336004A21922B1D22 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C4D42E7E1075411F838B697D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72464FB186064793A09257D4 /* Debug */,
+				B77E5E246ACE4845A4917C67 /* Release */,
+				4F1D4A702F6D4EA183959CD0 /* MinSizeRel */,
+				EA4440AC3A174BBD9AD5C15C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C63B96F7A2E94C24B4877B9A /* Build configuration list for PBXNativeTarget "speed_typing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62795C39F51D4823BB8C68EE /* Debug */,
+				9B19FBFA09444D848BCCC105 /* Release */,
+				8D014BE9A64847EEAD871D99 /* MinSizeRel */,
+				FBDF528023F94158AB7DBFCD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FA800A3A43A74E2A8170F136 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07096442F066451E810DC012 /* Debug */,
+				50B6AE6FE7184410882C8F54 /* Release */,
+				2829F76E59934E84BE925D77 /* MinSizeRel */,
+				912AE3E3930E4227B0450E07 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13661DD15D874EB3AA209CA4 /* Project object */;
+}
