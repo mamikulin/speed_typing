@@ -81,4 +81,5 @@ dependencies: \
   /Users/ilamatveev/Desktop/speed_typing/speed_typing/include/TextBox.hpp \
   /Users/ilamatveev/Desktop/speed_typing/speed_typing/include/UserManager.hpp \
   /Users/ilamatveev/Desktop/speed_typing/speed_typing/include/User.hpp \
-  /Users/ilamatveev/Desktop/speed_typing/speed_typing/include/ModeStrategy.hpp
+  /Users/ilamatveev/Desktop/speed_typing/speed_typing/include/ModeStrategy.hpp \
+  /Users/ilamatveev/Desktop/speed_typing/speed_typing/include/ResourcePath.hpp
