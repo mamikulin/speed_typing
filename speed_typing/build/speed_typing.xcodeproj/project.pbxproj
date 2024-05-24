@@ -3,26 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		315DC0C744024C0A8D597CC0 /* ALL_BUILD */ = {
+		48059E8DAD5045CBAA995FF5 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D4F292D8B69E443BB60744D4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 7975DEFF72C047C0B1EFAB06 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				98DAAD9B1B3B804387F58B9C /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				3917FED4893F40E4AA3179FE /* PBXTargetDependency */,
-				CE4F8282F6A74FF68CA155BD /* PBXTargetDependency */,
+				E8C367C546934449B249A3B2 /* PBXTargetDependency */,
+				5A4D4E711F344483BE805313 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
-		5841463D70C74299B84EAECE /* ZERO_CHECK */ = {
+		845C11E8663048CB8F7D0E7C /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 2DDE654D048D4CFFA878545A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = B68D332C8AD841EF80426D9E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				95E235E15C1AD72560321353 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -34,299 +34,249 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		196E9EC0B17A46D694577892 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F87E3C38FD4340269C0ABD80 /* main.cpp */; };
-		3F0CC50216514366AB7AC162 /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF03879100284172A84FAFEA /* Button.cpp */; };
-		54574B2F1AA94C9B9DEE592C /* UserManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 649E71FE068C4DA79C412190 /* UserManager.cpp */; };
-		7FACC9C22A454144A36381B9 /* ResourcePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F484273660421486461BF8 /* ResourcePath.cpp */; };
-		B26CA632D52741A3880482F5 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99F6A779B02248C69183309D /* ResourcePath.mm */; };
-		CAFDF90D3FA14DA99AA8D38A /* ModeStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85AA569B6FB24BB1BC503396 /* ModeStrategy.cpp */; };
-		D8446E776FCF4A8DB6847CE1 /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDDECFEB731D447B8E1903FD /* Menu.cpp */; };
-		EBEB82AD2C00E38E0001F1E0 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771EF084B20549B8AE927FDA /* sfml-graphics.framework */; };
-		EBEB82AE2C00E38E0001F1E0 /* sfml-graphics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 771EF084B20549B8AE927FDA /* sfml-graphics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBEB82AF2C00E38E0001F1E0 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F086A8C9B743B89414EC77 /* sfml-system.framework */; };
-		EBEB82B02C00E38E0001F1E0 /* sfml-system.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 17F086A8C9B743B89414EC77 /* sfml-system.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBEB82B12C00E38E0001F1E0 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5098638149F74E678BEF4E0E /* sfml-window.framework */; };
-		EBEB82B22C00E38E0001F1E0 /* sfml-window.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5098638149F74E678BEF4E0E /* sfml-window.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBEB82C12C00E38E0001F1E0 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82B42C00E38E0001F1E0 /* sfml-network.framework */; };
-		EBEB82C22C00E38E0001F1E0 /* sfml-network.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82B42C00E38E0001F1E0 /* sfml-network.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBEB82C32C00E38E0001F1E0 /* FLAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82B52C00E38E0001F1E0 /* FLAC.framework */; };
-		EBEB82C42C00E38E0001F1E0 /* FLAC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82B52C00E38E0001F1E0 /* FLAC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBEB82C52C00E38E0001F1E0 /* vorbisenc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82B62C00E38E0001F1E0 /* vorbisenc.framework */; };
-		EBEB82C62C00E38E0001F1E0 /* vorbisenc.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82B62C00E38E0001F1E0 /* vorbisenc.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBEB82C72C00E38E0001F1E0 /* CoreRepairKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82B72C00E38E0001F1E0 /* CoreRepairKit.framework */; };
-		EBEB82C82C00E38E0001F1E0 /* CoreRepairKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82B72C00E38E0001F1E0 /* CoreRepairKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBEB82C92C00E38E0001F1E0 /* freetype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82B82C00E38E0001F1E0 /* freetype.framework */; };
-		EBEB82CA2C00E38E0001F1E0 /* freetype.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82B82C00E38E0001F1E0 /* freetype.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBEB82CB2C00E38E0001F1E0 /* iTunesLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82B92C00E38E0001F1E0 /* iTunesLibrary.framework */; };
-		EBEB82CC2C00E38E0001F1E0 /* iTunesLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82B92C00E38E0001F1E0 /* iTunesLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBEB82CD2C00E38E0001F1E0 /* CoreRepairCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82BA2C00E38E0001F1E0 /* CoreRepairCore.framework */; };
-		EBEB82CE2C00E38E0001F1E0 /* CoreRepairCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82BA2C00E38E0001F1E0 /* CoreRepairCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBEB82CF2C00E38E0001F1E0 /* vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82BB2C00E38E0001F1E0 /* vorbis.framework */; };
-		EBEB82D02C00E38E0001F1E0 /* vorbis.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82BB2C00E38E0001F1E0 /* vorbis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBEB82D12C00E38E0001F1E0 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82BC2C00E38E0001F1E0 /* SFML.framework */; };
-		EBEB82D22C00E38E0001F1E0 /* SFML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82BC2C00E38E0001F1E0 /* SFML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBEB82D32C00E38E0001F1E0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82BD2C00E38E0001F1E0 /* OpenAL.framework */; };
-		EBEB82D42C00E38F0001F1E0 /* OpenAL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82BD2C00E38E0001F1E0 /* OpenAL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBEB82D52C00E38F0001F1E0 /* vorbisfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82BE2C00E38E0001F1E0 /* vorbisfile.framework */; };
-		EBEB82D62C00E38F0001F1E0 /* vorbisfile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82BE2C00E38E0001F1E0 /* vorbisfile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBEB82D72C00E38F0001F1E0 /* ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82BF2C00E38E0001F1E0 /* ogg.framework */; };
-		EBEB82D82C00E38F0001F1E0 /* ogg.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82BF2C00E38E0001F1E0 /* ogg.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBEB82D92C00E38F0001F1E0 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82C02C00E38E0001F1E0 /* sfml-audio.framework */; };
-		EBEB82DA2C00E38F0001F1E0 /* sfml-audio.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBEB82C02C00E38E0001F1E0 /* sfml-audio.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F3C1B84A44AF4F1EA41A9D9D /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71CD1E8F429F46BFB268C10C /* User.cpp */; };
-		F6701E9234F84F0C810EBC1A /* TextBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64A5D1FAFD1B4E82BE1AEDAD /* TextBox.cpp */; };
+		09D32851C66A458A8E80284C /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/ModeStrategy.cpp */ = {isa = PBXBuildFile; fileRef = C3F70660BFBA414F995DAEB0 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/ModeStrategy.cpp */; };
+		0D41DEEE16BB4EEA9A7379F9 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 5146528B1CA740249CFD62B5 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/main.cpp */; };
+		196167D6286945C188543AEE /* /Library/Frameworks/sfml-graphics.framework */ = {isa = PBXBuildFile; fileRef = B3AD4E68AC234D699875C664 /* /Library/Frameworks/sfml-graphics.framework */; };
+		24B49B93A0A24B8EAF15E301 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/Button.cpp */ = {isa = PBXBuildFile; fileRef = BA1AF8794FA741F6B5A68B33 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/Button.cpp */; };
+		351C4E2AFB364F1A893A2A54 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/Menu.cpp */ = {isa = PBXBuildFile; fileRef = 6BB09D91FA694288A46E7093 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/Menu.cpp */; };
+		3A0A080D98D34345BBC6A5C6 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/ResourcePath.mm */ = {isa = PBXBuildFile; fileRef = 94412F14FD02416E85C59288 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/ResourcePath.mm */; };
+		4E3F2CA25EE84F0BB3A10B1C /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/ResourcePath.cpp */ = {isa = PBXBuildFile; fileRef = 26AC1F2B74F44D26A9F23B3B /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/ResourcePath.cpp */; };
+		834CC10E9DA6432DBE38C7C5 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/UserManager.cpp */ = {isa = PBXBuildFile; fileRef = 2DA0FF9B769341618876E9DA /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/UserManager.cpp */; };
+		8F8AFE564C7D43708FB565C1 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/TextBox.cpp */ = {isa = PBXBuildFile; fileRef = 45E87FFFE6154BF6A3ED61A5 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/TextBox.cpp */; };
+		A8F2062EBB7249E28F99F9B6 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/User.cpp */ = {isa = PBXBuildFile; fileRef = 6C7EDE8596FC4C8C9F2829A9 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/User.cpp */; };
+		E1DCDF29F1AD4B668B63FACB /* /Users/mikemikulin/desktop/speed_typing/speed_typing/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4DDCFAAF941045F6A3C856D0 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/CMakeLists.txt */; };
+		F7E7D7A47E404FB68C5D0C92 /* /Library/Frameworks/sfml-window.framework */ = {isa = PBXBuildFile; fileRef = 59F6284D3B7440208BFC34BB /* /Library/Frameworks/sfml-window.framework */; };
+		F8FF53719F304E7FB2EF6961 /* /Library/Frameworks/sfml-system.framework */ = {isa = PBXBuildFile; fileRef = 753FC4EA12E54802A18886EF /* /Library/Frameworks/sfml-system.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildStyle section */
+		068CA70D0A6744A6A8EB7A48 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		61C2B403D22D4995813ABB7A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		8CC897D5C98E4DB49B91071B /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		FCAA87FB78454A39B4E2739F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
 /* Begin PBXContainerItemProxy section */
-		2C34A12C863D47EF9B5B5358 /* PBXContainerItemProxy */ = {
+		626D05DFB3E84DB4ACBFCDEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B598F9A35480466888A5E42B /* Project object */;
+			containerPortal = 7004E3A61C6546DC8BC23103 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8EECC69CF9634C9FA0CFCB68;
+			remoteGlobalIDString = 024B1D5E16B14373BDFD0158;
 			remoteInfo = speed_typing;
 		};
-		73FBBC66968647D19184547D /* PBXContainerItemProxy */ = {
+		C9B95D7F414A42E3AAC41126 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B598F9A35480466888A5E42B /* Project object */;
+			containerPortal = 7004E3A61C6546DC8BC23103 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5841463D70C74299B84EAECE;
+			remoteGlobalIDString = 845C11E8663048CB8F7D0E7C;
 			remoteInfo = ZERO_CHECK;
 		};
-		E102AD8D3D8847049CCA1687 /* PBXContainerItemProxy */ = {
+		ED3F355DE41C41B191059912 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B598F9A35480466888A5E42B /* Project object */;
+			containerPortal = 7004E3A61C6546DC8BC23103 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5841463D70C74299B84EAECE;
+			remoteGlobalIDString = 845C11E8663048CB8F7D0E7C;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		EBEB82B32C00E38E0001F1E0 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				EBEB82D22C00E38E0001F1E0 /* SFML.framework in Embed Frameworks */,
-				EBEB82DA2C00E38F0001F1E0 /* sfml-audio.framework in Embed Frameworks */,
-				EBEB82AE2C00E38E0001F1E0 /* sfml-graphics.framework in Embed Frameworks */,
-				EBEB82D82C00E38F0001F1E0 /* ogg.framework in Embed Frameworks */,
-				EBEB82D02C00E38E0001F1E0 /* vorbis.framework in Embed Frameworks */,
-				EBEB82B02C00E38E0001F1E0 /* sfml-system.framework in Embed Frameworks */,
-				EBEB82CA2C00E38E0001F1E0 /* freetype.framework in Embed Frameworks */,
-				EBEB82CC2C00E38E0001F1E0 /* iTunesLibrary.framework in Embed Frameworks */,
-				EBEB82C62C00E38E0001F1E0 /* vorbisenc.framework in Embed Frameworks */,
-				EBEB82C42C00E38E0001F1E0 /* FLAC.framework in Embed Frameworks */,
-				EBEB82D42C00E38F0001F1E0 /* OpenAL.framework in Embed Frameworks */,
-				EBEB82D62C00E38F0001F1E0 /* vorbisfile.framework in Embed Frameworks */,
-				EBEB82B22C00E38E0001F1E0 /* sfml-window.framework in Embed Frameworks */,
-				EBEB82C22C00E38E0001F1E0 /* sfml-network.framework in Embed Frameworks */,
-				EBEB82C82C00E38E0001F1E0 /* CoreRepairKit.framework in Embed Frameworks */,
-				EBEB82CE2C00E38E0001F1E0 /* CoreRepairCore.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		17F086A8C9B743B89414EC77 /* sfml-system.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "/Library/Frameworks/sfml-system.framework"; sourceTree = "<absolute>"; };
-		2F94CE9DEA8C430FBFB90C93 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		5098638149F74E678BEF4E0E /* sfml-window.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "/Library/Frameworks/sfml-window.framework"; sourceTree = "<absolute>"; };
-		63FB97CA144C4199A43C063E /* speed_typing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = speed_typing; sourceTree = BUILT_PRODUCTS_DIR; };
-		649E71FE068C4DA79C412190 /* UserManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UserManager.cpp; path = src/UserManager.cpp; sourceTree = SOURCE_ROOT; };
-		64A5D1FAFD1B4E82BE1AEDAD /* TextBox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextBox.cpp; path = src/TextBox.cpp; sourceTree = SOURCE_ROOT; };
-		71CD1E8F429F46BFB268C10C /* User.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = User.cpp; path = src/User.cpp; sourceTree = SOURCE_ROOT; };
-		771EF084B20549B8AE927FDA /* sfml-graphics.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "/Library/Frameworks/sfml-graphics.framework"; sourceTree = "<absolute>"; };
-		85AA569B6FB24BB1BC503396 /* ModeStrategy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ModeStrategy.cpp; path = src/ModeStrategy.cpp; sourceTree = SOURCE_ROOT; };
-		99F6A779B02248C69183309D /* ResourcePath.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ResourcePath.mm; path = src/ResourcePath.mm; sourceTree = SOURCE_ROOT; };
-		BDDECFEB731D447B8E1903FD /* Menu.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Menu.cpp; path = src/Menu.cpp; sourceTree = SOURCE_ROOT; };
-		D9F484273660421486461BF8 /* ResourcePath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ResourcePath.cpp; path = src/ResourcePath.cpp; sourceTree = SOURCE_ROOT; };
-		DECF745A9C04468492E2C60E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		EBEB82B42C00E38E0001F1E0 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../../../../Library/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
-		EBEB82B52C00E38E0001F1E0 /* FLAC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLAC.framework; path = ../../../../../Library/Frameworks/FLAC.framework; sourceTree = "<group>"; };
-		EBEB82B62C00E38E0001F1E0 /* vorbisenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbisenc.framework; path = ../../../../../Library/Frameworks/vorbisenc.framework; sourceTree = "<group>"; };
-		EBEB82B72C00E38E0001F1E0 /* CoreRepairKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreRepairKit.framework; path = ../../../../../Library/Frameworks/CoreRepairKit.framework; sourceTree = "<group>"; };
-		EBEB82B82C00E38E0001F1E0 /* freetype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = freetype.framework; path = ../../../../../Library/Frameworks/freetype.framework; sourceTree = "<group>"; };
-		EBEB82B92C00E38E0001F1E0 /* iTunesLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iTunesLibrary.framework; path = ../../../../../System/Library/Frameworks/iTunesLibrary.framework; sourceTree = "<group>"; };
-		EBEB82BA2C00E38E0001F1E0 /* CoreRepairCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreRepairCore.framework; path = ../../../../../Library/Frameworks/CoreRepairCore.framework; sourceTree = "<group>"; };
-		EBEB82BB2C00E38E0001F1E0 /* vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbis.framework; path = ../../../../../Library/Frameworks/vorbis.framework; sourceTree = "<group>"; };
-		EBEB82BC2C00E38E0001F1E0 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = ../../../../../Library/Frameworks/SFML.framework; sourceTree = "<group>"; };
-		EBEB82BD2C00E38E0001F1E0 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = ../../../../../Library/Frameworks/OpenAL.framework; sourceTree = "<group>"; };
-		EBEB82BE2C00E38E0001F1E0 /* vorbisfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbisfile.framework; path = ../../../../../Library/Frameworks/vorbisfile.framework; sourceTree = "<group>"; };
-		EBEB82BF2C00E38E0001F1E0 /* ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ogg.framework; path = ../../../../../Library/Frameworks/ogg.framework; sourceTree = "<group>"; };
-		EBEB82C02C00E38E0001F1E0 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../../../../Library/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
-		EF03879100284172A84FAFEA /* Button.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Button.cpp; path = src/Button.cpp; sourceTree = SOURCE_ROOT; };
-		F87E3C38FD4340269C0ABD80 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		26AC1F2B74F44D26A9F23B3B /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/ResourcePath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ResourcePath.cpp; path = src/ResourcePath.cpp; sourceTree = SOURCE_ROOT; };
+		2DA0FF9B769341618876E9DA /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/UserManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UserManager.cpp; path = src/UserManager.cpp; sourceTree = SOURCE_ROOT; };
+		45E87FFFE6154BF6A3ED61A5 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/TextBox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextBox.cpp; path = src/TextBox.cpp; sourceTree = SOURCE_ROOT; };
+		46DCDB8F93764C189E85C3AC /* /Users/mikemikulin/desktop/speed_typing/speed_typing/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4DDCFAAF941045F6A3C856D0 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5146528B1CA740249CFD62B5 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		59F6284D3B7440208BFC34BB /* /Library/Frameworks/sfml-window.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "/Library/Frameworks/sfml-window.framework"; sourceTree = "<absolute>"; };
+		6BB09D91FA694288A46E7093 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/Menu.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Menu.cpp; path = src/Menu.cpp; sourceTree = SOURCE_ROOT; };
+		6C7EDE8596FC4C8C9F2829A9 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/User.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = User.cpp; path = src/User.cpp; sourceTree = SOURCE_ROOT; };
+		753FC4EA12E54802A18886EF /* /Library/Frameworks/sfml-system.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "/Library/Frameworks/sfml-system.framework"; sourceTree = "<absolute>"; };
+		94412F14FD02416E85C59288 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/ResourcePath.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ResourcePath.mm; path = src/ResourcePath.mm; sourceTree = SOURCE_ROOT; };
+		B3AD4E68AC234D699875C664 /* /Library/Frameworks/sfml-graphics.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "/Library/Frameworks/sfml-graphics.framework"; sourceTree = "<absolute>"; };
+		BA1AF8794FA741F6B5A68B33 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/Button.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Button.cpp; path = src/Button.cpp; sourceTree = SOURCE_ROOT; };
+		C3F70660BFBA414F995DAEB0 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/ModeStrategy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ModeStrategy.cpp; path = src/ModeStrategy.cpp; sourceTree = SOURCE_ROOT; };
+		FDA3DAA1A03D439DAAE2DEC9 /* speed_typing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = speed_typing; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F5AC745C16BF4ABC90E78781 /* Frameworks */ = {
+		84C4A043FF5E44A7AB3B0A20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBEB82D12C00E38E0001F1E0 /* SFML.framework in Frameworks */,
-				EBEB82D92C00E38F0001F1E0 /* sfml-audio.framework in Frameworks */,
-				EBEB82AD2C00E38E0001F1E0 /* sfml-graphics.framework in Frameworks */,
-				EBEB82D72C00E38F0001F1E0 /* ogg.framework in Frameworks */,
-				EBEB82CF2C00E38E0001F1E0 /* vorbis.framework in Frameworks */,
-				EBEB82AF2C00E38E0001F1E0 /* sfml-system.framework in Frameworks */,
-				EBEB82C92C00E38E0001F1E0 /* freetype.framework in Frameworks */,
-				EBEB82CB2C00E38E0001F1E0 /* iTunesLibrary.framework in Frameworks */,
-				EBEB82C52C00E38E0001F1E0 /* vorbisenc.framework in Frameworks */,
-				EBEB82C32C00E38E0001F1E0 /* FLAC.framework in Frameworks */,
-				EBEB82D32C00E38E0001F1E0 /* OpenAL.framework in Frameworks */,
-				EBEB82D52C00E38F0001F1E0 /* vorbisfile.framework in Frameworks */,
-				EBEB82B12C00E38E0001F1E0 /* sfml-window.framework in Frameworks */,
-				EBEB82C12C00E38E0001F1E0 /* sfml-network.framework in Frameworks */,
-				EBEB82C72C00E38E0001F1E0 /* CoreRepairKit.framework in Frameworks */,
-				EBEB82CD2C00E38E0001F1E0 /* CoreRepairCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0012EC3E9873420AA037EEF9 /* Resources */ = {
+		0188C5AA0DB9446D8D12E8CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA3DAA1A03D439DAAE2DEC9 /* speed_typing */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31D03E4BE48F41C0B3E3458B /* speed_typing */ = {
+			isa = PBXGroup;
+			children = (
+				32A3BA9A3D714B389FE93242 /* Source Files */,
+				4DDCFAAF941045F6A3C856D0 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/CMakeLists.txt */,
+			);
+			name = speed_typing;
+			sourceTree = "<group>";
+		};
+		32A3BA9A3D714B389FE93242 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA1AF8794FA741F6B5A68B33 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/Button.cpp */,
+				6BB09D91FA694288A46E7093 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/Menu.cpp */,
+				C3F70660BFBA414F995DAEB0 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/ModeStrategy.cpp */,
+				26AC1F2B74F44D26A9F23B3B /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/ResourcePath.cpp */,
+				94412F14FD02416E85C59288 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/ResourcePath.mm */,
+				45E87FFFE6154BF6A3ED61A5 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/TextBox.cpp */,
+				6C7EDE8596FC4C8C9F2829A9 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/User.cpp */,
+				2DA0FF9B769341618876E9DA /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/UserManager.cpp */,
+				5146528B1CA740249CFD62B5 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3B17837DB339475E89128203 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		0DD9D1B5F11543FD8ED9F2BD /* CMake Rules */ = {
+		3D829795E935472391838551 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B710549895064C60A09BBE11 /* CMake Rules */,
+				46DCDB8F93764C189E85C3AC /* /Users/mikemikulin/desktop/speed_typing/speed_typing/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		704A05731E554FB8AEFE5F70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3AD4E68AC234D699875C664 /* /Library/Frameworks/sfml-graphics.framework */,
+				59F6284D3B7440208BFC34BB /* /Library/Frameworks/sfml-window.framework */,
+				753FC4EA12E54802A18886EF /* /Library/Frameworks/sfml-system.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B710549895064C60A09BBE11 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		16DB0F3E7915460EA2935219 /* speed_typing */ = {
+		D337FC842F7747FEADBE0512 = {
 			isa = PBXGroup;
 			children = (
-				36C3725090CA4A9B868E4E74 /* Source Files */,
-				DECF745A9C04468492E2C60E /* CMakeLists.txt */,
+				31D03E4BE48F41C0B3E3458B /* speed_typing */,
+				3D829795E935472391838551 /* ALL_BUILD */,
+				0188C5AA0DB9446D8D12E8CA /* Products */,
+				704A05731E554FB8AEFE5F70 /* Frameworks */,
+				3B17837DB339475E89128203 /* Resources */,
 			);
-			name = speed_typing;
-			sourceTree = "<group>";
-		};
-		22797D2D90844BC9B5CE44C2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EBEB82BA2C00E38E0001F1E0 /* CoreRepairCore.framework */,
-				EBEB82B72C00E38E0001F1E0 /* CoreRepairKit.framework */,
-				EBEB82B52C00E38E0001F1E0 /* FLAC.framework */,
-				EBEB82B82C00E38E0001F1E0 /* freetype.framework */,
-				EBEB82B92C00E38E0001F1E0 /* iTunesLibrary.framework */,
-				EBEB82BF2C00E38E0001F1E0 /* ogg.framework */,
-				EBEB82BD2C00E38E0001F1E0 /* OpenAL.framework */,
-				EBEB82C02C00E38E0001F1E0 /* sfml-audio.framework */,
-				EBEB82B42C00E38E0001F1E0 /* sfml-network.framework */,
-				EBEB82BC2C00E38E0001F1E0 /* SFML.framework */,
-				EBEB82BB2C00E38E0001F1E0 /* vorbis.framework */,
-				EBEB82B62C00E38E0001F1E0 /* vorbisenc.framework */,
-				EBEB82BE2C00E38E0001F1E0 /* vorbisfile.framework */,
-				771EF084B20549B8AE927FDA /* sfml-graphics.framework */,
-				5098638149F74E678BEF4E0E /* sfml-window.framework */,
-				17F086A8C9B743B89414EC77 /* sfml-system.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		259829560F664FC48DC44085 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				0DD9D1B5F11543FD8ED9F2BD /* CMake Rules */,
-				2F94CE9DEA8C430FBFB90C93 /* CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		36C3725090CA4A9B868E4E74 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				EF03879100284172A84FAFEA /* Button.cpp */,
-				BDDECFEB731D447B8E1903FD /* Menu.cpp */,
-				85AA569B6FB24BB1BC503396 /* ModeStrategy.cpp */,
-				D9F484273660421486461BF8 /* ResourcePath.cpp */,
-				99F6A779B02248C69183309D /* ResourcePath.mm */,
-				64A5D1FAFD1B4E82BE1AEDAD /* TextBox.cpp */,
-				71CD1E8F429F46BFB268C10C /* User.cpp */,
-				649E71FE068C4DA79C412190 /* UserManager.cpp */,
-				F87E3C38FD4340269C0ABD80 /* main.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		520CE857DA3241989E22B3ED = {
-			isa = PBXGroup;
-			children = (
-				16DB0F3E7915460EA2935219 /* speed_typing */,
-				259829560F664FC48DC44085 /* ALL_BUILD */,
-				BA7F01EB9FE0498B9F5F6E95 /* Products */,
-				22797D2D90844BC9B5CE44C2 /* Frameworks */,
-				0012EC3E9873420AA037EEF9 /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		BA7F01EB9FE0498B9F5F6E95 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				63FB97CA144C4199A43C063E /* speed_typing */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8EECC69CF9634C9FA0CFCB68 /* speed_typing */ = {
+		024B1D5E16B14373BDFD0158 /* speed_typing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34D5B16C6CBB4F1E88832882 /* Build configuration list for PBXNativeTarget "speed_typing" */;
+			buildConfigurationList = 9137EF52B7D6414FA6D9D37D /* Build configuration list for PBXNativeTarget "speed_typing" */;
 			buildPhases = (
-				901BB58350A04108B8650782 /* Sources */,
-				F5AC745C16BF4ABC90E78781 /* Frameworks */,
-				EBEB82B32C00E38E0001F1E0 /* Embed Frameworks */,
+				68E0595AFC32430D816FAA21 /* Sources */,
+				84C4A043FF5E44A7AB3B0A20 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				65CC860D5A6646C4A5727813 /* PBXTargetDependency */,
+				919A5B2C6161452F9D32EFFD /* PBXTargetDependency */,
 			);
 			name = speed_typing;
 			productName = speed_typing;
-			productReference = 63FB97CA144C4199A43C063E /* speed_typing */;
+			productReference = FDA3DAA1A03D439DAAE2DEC9 /* speed_typing */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B598F9A35480466888A5E42B /* Project object */ = {
+		7004E3A61C6546DC8BC23103 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1540;
 			};
-			buildConfigurationList = 22260AF7D2F54FF5A4F0DA54 /* Build configuration list for PBXProject "speed_typing" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
+			buildConfigurationList = B33EC844D844487EACDF3FE9 /* Build configuration list for PBXProject "speed_typing" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				FCAA87FB78454A39B4E2739F /* Debug */,
+				068CA70D0A6744A6A8EB7A48 /* Release */,
+				61C2B403D22D4995813ABB7A /* MinSizeRel */,
+				8CC897D5C98E4DB49B91071B /* RelWithDebInfo */,
 			);
-			mainGroup = 520CE857DA3241989E22B3ED;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = D337FC842F7747FEADBE0512;
 			projectDirPath = /Users/mikemikulin/desktop/speed_typing/speed_typing;
 			projectRoot = "";
 			targets = (
-				315DC0C744024C0A8D597CC0 /* ALL_BUILD */,
-				5841463D70C74299B84EAECE /* ZERO_CHECK */,
-				8EECC69CF9634C9FA0CFCB68 /* speed_typing */,
+				48059E8DAD5045CBAA995FF5 /* ALL_BUILD */,
+				845C11E8663048CB8F7D0E7C /* ZERO_CHECK */,
+				024B1D5E16B14373BDFD0158 /* speed_typing */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
 		95E235E15C1AD72560321353 /* Generate CMakeFiles/ZERO_CHECK */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -337,11 +287,27 @@
 			);
 			name = "Generate CMakeFiles/ZERO_CHECK";
 			outputPaths = (
-				/Users/mikemikulin/desktop/speed_typing/speed_typing/build/CMakeFiles/ZERO_CHECK,
-			);
+/Users/mikemikulin/desktop/speed_typing/speed_typing/build/CMakeFiles/ZERO_CHECK			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build\n  make -f /Users/mikemikulin/desktop/speed_typing/speed_typing/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build\n  make -f /Users/mikemikulin/desktop/speed_typing/speed_typing/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build\n  make -f /Users/mikemikulin/desktop/speed_typing/speed_typing/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build\n  make -f /Users/mikemikulin/desktop/speed_typing/speed_typing/build/CMakeScripts/ReRunCMake.make\nfi\n";
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build
+  make -f /Users/mikemikulin/desktop/speed_typing/speed_typing/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build
+  make -f /Users/mikemikulin/desktop/speed_typing/speed_typing/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build
+  make -f /Users/mikemikulin/desktop/speed_typing/speed_typing/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build
+  make -f /Users/mikemikulin/desktop/speed_typing/speed_typing/build/CMakeScripts/ReRunCMake.make
+fi
+";
 			showEnvVarsInLog = 0;
 		};
 		98DAAD9B1B3B804387F58B9C /* Generate CMakeFiles/ALL_BUILD */ = {
@@ -354,54 +320,85 @@
 			);
 			name = "Generate CMakeFiles/ALL_BUILD";
 			outputPaths = (
-				/Users/mikemikulin/desktop/speed_typing/speed_typing/build/CMakeFiles/ALL_BUILD,
+/Users/mikemikulin/desktop/speed_typing/speed_typing/build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/mikemikulin/desktop/speed_typing/speed_typing/build\n  echo Build\\ all\\ projects\nfi\n";
+			shellScript = "# shell script goes here
+exit 0";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		901BB58350A04108B8650782 /* Sources */ = {
+		68E0595AFC32430D816FAA21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0CC50216514366AB7AC162 /* Button.cpp in Sources */,
-				D8446E776FCF4A8DB6847CE1 /* Menu.cpp in Sources */,
-				CAFDF90D3FA14DA99AA8D38A /* ModeStrategy.cpp in Sources */,
-				7FACC9C22A454144A36381B9 /* ResourcePath.cpp in Sources */,
-				B26CA632D52741A3880482F5 /* ResourcePath.mm in Sources */,
-				F6701E9234F84F0C810EBC1A /* TextBox.cpp in Sources */,
-				F3C1B84A44AF4F1EA41A9D9D /* User.cpp in Sources */,
-				54574B2F1AA94C9B9DEE592C /* UserManager.cpp in Sources */,
-				196E9EC0B17A46D694577892 /* main.cpp in Sources */,
+				24B49B93A0A24B8EAF15E301 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/Button.cpp */,
+				351C4E2AFB364F1A893A2A54 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/Menu.cpp */,
+				09D32851C66A458A8E80284C /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/ModeStrategy.cpp */,
+				4E3F2CA25EE84F0BB3A10B1C /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/ResourcePath.cpp */,
+				3A0A080D98D34345BBC6A5C6 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/ResourcePath.mm */,
+				8F8AFE564C7D43708FB565C1 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/TextBox.cpp */,
+				A8F2062EBB7249E28F99F9B6 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/User.cpp */,
+				834CC10E9DA6432DBE38C7C5 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/UserManager.cpp */,
+				0D41DEEE16BB4EEA9A7379F9 /* /Users/mikemikulin/desktop/speed_typing/speed_typing/src/main.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3917FED4893F40E4AA3179FE /* PBXTargetDependency */ = {
+		5A4D4E711F344483BE805313 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8EECC69CF9634C9FA0CFCB68 /* speed_typing */;
-			targetProxy = 2C34A12C863D47EF9B5B5358 /* PBXContainerItemProxy */;
+			target = 845C11E8663048CB8F7D0E7C /* ZERO_CHECK */;
+			targetProxy = C9B95D7F414A42E3AAC41126 /* PBXContainerItemProxy */;
 		};
-		65CC860D5A6646C4A5727813 /* PBXTargetDependency */ = {
+		919A5B2C6161452F9D32EFFD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5841463D70C74299B84EAECE /* ZERO_CHECK */;
-			targetProxy = 73FBBC66968647D19184547D /* PBXContainerItemProxy */;
+			target = 845C11E8663048CB8F7D0E7C /* ZERO_CHECK */;
+			targetProxy = ED3F355DE41C41B191059912 /* PBXContainerItemProxy */;
 		};
-		CE4F8282F6A74FF68CA155BD /* PBXTargetDependency */ = {
+		E8C367C546934449B249A3B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5841463D70C74299B84EAECE /* ZERO_CHECK */;
-			targetProxy = E102AD8D3D8847049CCA1687 /* PBXContainerItemProxy */;
+			target = 024B1D5E16B14373BDFD0158 /* speed_typing */;
+			targetProxy = 626D05DFB3E84DB4ACBFCDEC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B99F4469F4B488680309803 /* MinSizeRel */ = {
+		0238F9D90F144A31B6107E96 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -410,117 +407,20 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
-			};
-			name = MinSizeRel;
-		};
-		0D702D0D22B94640A95D46F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/mikemikulin/desktop/speed_typing/speed_typing/build/Release;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					/Library/Frameworks,
-					/Library/Frameworks,
-					"$(inherited)",
-					"$(LOCAL_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					/Users/mikemikulin/desktop/speed_typing/speed_typing/include,
-					"$(inherited)",
-				);
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					/Library/Frameworks/.,
-					"$(inherited)",
-				);
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNDEBUG",
-					"'-std=gnu++17'",
-				);
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/Library/Frameworks/sfml-graphics.framework/Versions/2.6.1/sfml-graphics",
-					"/Library/Frameworks/sfml-window.framework/Versions/2.6.1/sfml-window",
-					"/Library/Frameworks/sfml-system.framework/Versions/2.6.1/sfml-system",
-					"$(inherited)",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = speed_typing;
-				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
-					/Library/Frameworks/.,
-					"$(inherited)",
-				);
-				TARGET_TEMP_DIR = "/Users/mikemikulin/desktop/speed_typing/speed_typing/build/build/speed_typing.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
-			};
-			name = Release;
-		};
-		22E867CE88C54BC593C6A465 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/mikemikulin/desktop/speed_typing/speed_typing/build/build;
-			};
-			name = RelWithDebInfo;
-		};
-		376F24E0CD6D42A4B7B66041 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		5B1C68DB2D8747FC96EB86C8 /* Debug */ = {
+		02DA8A1564E64EDF8FE4B68C /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -529,92 +429,20 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
-			};
-			name = Debug;
-		};
-		8177DC5E5C92414C9BDD312E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/mikemikulin/desktop/speed_typing/speed_typing/build/RelWithDebInfo;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					/Library/Frameworks,
-					/Library/Frameworks,
-					"$(inherited)",
-					"$(LOCAL_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					/Users/mikemikulin/desktop/speed_typing/speed_typing/include,
-					"$(inherited)",
-				);
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					/Library/Frameworks/.,
-					"$(inherited)",
-				);
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNDEBUG",
-					"'-std=gnu++17'",
-				);
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/Library/Frameworks/sfml-graphics.framework/Versions/2.6.1/sfml-graphics",
-					"/Library/Frameworks/sfml-window.framework/Versions/2.6.1/sfml-window",
-					"/Library/Frameworks/sfml-system.framework/Versions/2.6.1/sfml-system",
-					"$(inherited)",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = speed_typing;
-				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
-					/Library/Frameworks/.,
-					"$(inherited)",
-				);
-				TARGET_TEMP_DIR = "/Users/mikemikulin/desktop/speed_typing/speed_typing/build/build/speed_typing.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		81DDC1A2A57547399981DB8B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/mikemikulin/desktop/speed_typing/speed_typing/build/build;
-			};
-			name = Release;
-		};
-		902C22C78E304F689C4F7D98 /* Debug */ = {
+		03DB3D43C48E4B768CB5C059 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -623,121 +451,29 @@
 				CONFIGURATION_BUILD_DIR = /Users/mikemikulin/desktop/speed_typing/speed_typing/build/Debug;
 				EXECUTABLE_PREFIX = "";
 				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					/Library/Frameworks,
-					/Library/Frameworks,
-					"$(inherited)",
-					"$(LOCAL_LIBRARY_DIR)/Frameworks",
-				);
+				FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks,/Library/Frameworks,"$(inherited)");
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					/Users/mikemikulin/desktop/speed_typing/speed_typing/include,
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = (/Users/mikemikulin/desktop/speed_typing/speed_typing/include,"$(inherited)");
 				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					/Library/Frameworks/.,
-					"$(inherited)",
-				);
+				LD_RUNPATH_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/Library/Frameworks/sfml-graphics.framework/Versions/2.6.1/sfml-graphics",
-					"/Library/Frameworks/sfml-window.framework/Versions/2.6.1/sfml-window",
-					"/Library/Frameworks/sfml-system.framework/Versions/2.6.1/sfml-system",
-					"$(inherited)",
-				);
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Library/Frameworks/sfml-graphics.framework/Versions/2.6.1/sfml-graphics","/Library/Frameworks/sfml-window.framework/Versions/2.6.1/sfml-window","/Library/Frameworks/sfml-system.framework/Versions/2.6.1/sfml-system","$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = speed_typing;
 				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
-					/Library/Frameworks/.,
-					"$(inherited)",
-				);
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
 				TARGET_TEMP_DIR = "/Users/mikemikulin/desktop/speed_typing/speed_typing/build/build/speed_typing.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		973FBA2B9B8E4100BAD8D781 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk;
-				SYMROOT = /Users/mikemikulin/desktop/speed_typing/speed_typing/build/build;
-			};
-			name = Debug;
-		};
-		A975A2DC83C04750A257AE71 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/mikemikulin/desktop/speed_typing/speed_typing/build/MinSizeRel;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					/Library/Frameworks,
-					/Library/Frameworks,
-					"$(inherited)",
-					"$(LOCAL_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					/Users/mikemikulin/desktop/speed_typing/speed_typing/include,
-					"$(inherited)",
-				);
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					/Library/Frameworks/.,
-					"$(inherited)",
-				);
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNDEBUG",
-					"'-std=gnu++17'",
-				);
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/Library/Frameworks/sfml-graphics.framework/Versions/2.6.1/sfml-graphics",
-					"/Library/Frameworks/sfml-window.framework/Versions/2.6.1/sfml-window",
-					"/Library/Frameworks/sfml-system.framework/Versions/2.6.1/sfml-system",
-					"$(inherited)",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = speed_typing;
-				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
-					/Library/Frameworks/.,
-					"$(inherited)",
-				);
-				TARGET_TEMP_DIR = "/Users/mikemikulin/desktop/speed_typing/speed_typing/build/build/speed_typing.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
-			};
-			name = MinSizeRel;
-		};
-		ABEA44F70EC54C7AB1663BF2 /* Release */ = {
+		18EAD18A947B4C01AFDDB44C /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -746,23 +482,42 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		26D69031E62C431197E6FB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		C51ECAD5F3F541A4B4B0436A /* Debug */ = {
+		44395F3FAC3D4D3682EFAD62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -771,23 +526,73 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4DBBF0C0AF41403E88F6B6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mikemikulin/desktop/speed_typing/speed_typing/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks,/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mikemikulin/desktop/speed_typing/speed_typing/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Library/Frameworks/sfml-graphics.framework/Versions/2.6.1/sfml-graphics","/Library/Frameworks/sfml-window.framework/Versions/2.6.1/sfml-window","/Library/Frameworks/sfml-system.framework/Versions/2.6.1/sfml-system","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = speed_typing;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/mikemikulin/desktop/speed_typing/speed_typing/build/build/speed_typing.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		59CE545D0F7E42ED959A71AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		D53C70B14221449A836EE1FB /* MinSizeRel */ = {
+		79242C26C8214755A216653C /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -798,7 +603,7 @@
 			};
 			name = MinSizeRel;
 		};
-		F0A55E77D3D64721B785A5DD /* Release */ = {
+		86F53A1AAA92426BBAE3327E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -807,48 +612,114 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A7314FCF3F4D4F488459EE9C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mikemikulin/desktop/speed_typing/speed_typing/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks,/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mikemikulin/desktop/speed_typing/speed_typing/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Library/Frameworks/sfml-graphics.framework/Versions/2.6.1/sfml-graphics","/Library/Frameworks/sfml-window.framework/Versions/2.6.1/sfml-window","/Library/Frameworks/sfml-system.framework/Versions/2.6.1/sfml-system","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = speed_typing;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/mikemikulin/desktop/speed_typing/speed_typing/build/build/speed_typing.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AAB123D2D86B4A27A8FB8524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/mikemikulin/desktop/speed_typing/speed_typing/build/build;
 			};
 			name = Release;
 		};
-		F11D54137DCC4F6FBF83D1A2 /* RelWithDebInfo */ = {
+		B080FF7B550F40BFB7624CC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk;
+				SYMROOT = /Users/mikemikulin/desktop/speed_typing/speed_typing/build/build;
+			};
+			name = Debug;
+		};
+		C3AF3D32C3B24BB0B82AF108 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/mikemikulin/desktop/speed_typing/speed_typing/build/build;
 			};
 			name = RelWithDebInfo;
 		};
-		FAFAFF4F91EB4E6CAA0AD6B2 /* RelWithDebInfo */ = {
+		E51BA801925D4891A45EB3A1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mikemikulin/desktop/speed_typing/speed_typing/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks,/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mikemikulin/desktop/speed_typing/speed_typing/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Library/Frameworks/sfml-graphics.framework/Versions/2.6.1/sfml-graphics","/Library/Frameworks/sfml-window.framework/Versions/2.6.1/sfml-window","/Library/Frameworks/sfml-system.framework/Versions/2.6.1/sfml-system","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = speed_typing;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/mikemikulin/desktop/speed_typing/speed_typing/build/build/speed_typing.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E90A26347E1848D0898CDCD6 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -857,70 +728,67 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
+				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = RelWithDebInfo;
+			name = MinSizeRel;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22260AF7D2F54FF5A4F0DA54 /* Build configuration list for PBXProject "speed_typing" */ = {
+		7975DEFF72C047C0B1EFAB06 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				973FBA2B9B8E4100BAD8D781 /* Debug */,
-				81DDC1A2A57547399981DB8B /* Release */,
-				D53C70B14221449A836EE1FB /* MinSizeRel */,
-				22E867CE88C54BC593C6A465 /* RelWithDebInfo */,
+				59CE545D0F7E42ED959A71AB /* Debug */,
+				26D69031E62C431197E6FB0B /* Release */,
+				0238F9D90F144A31B6107E96 /* MinSizeRel */,
+				18EAD18A947B4C01AFDDB44C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2DDE654D048D4CFFA878545A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		9137EF52B7D6414FA6D9D37D /* Build configuration list for PBXNativeTarget "speed_typing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B1C68DB2D8747FC96EB86C8 /* Debug */,
-				F0A55E77D3D64721B785A5DD /* Release */,
-				0B99F4469F4B488680309803 /* MinSizeRel */,
-				FAFAFF4F91EB4E6CAA0AD6B2 /* RelWithDebInfo */,
+				03DB3D43C48E4B768CB5C059 /* Debug */,
+				4DBBF0C0AF41403E88F6B6A7 /* Release */,
+				E51BA801925D4891A45EB3A1 /* MinSizeRel */,
+				A7314FCF3F4D4F488459EE9C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		34D5B16C6CBB4F1E88832882 /* Build configuration list for PBXNativeTarget "speed_typing" */ = {
+		B33EC844D844487EACDF3FE9 /* Build configuration list for PBXProject "speed_typing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				902C22C78E304F689C4F7D98 /* Debug */,
-				0D702D0D22B94640A95D46F0 /* Release */,
-				A975A2DC83C04750A257AE71 /* MinSizeRel */,
-				8177DC5E5C92414C9BDD312E /* RelWithDebInfo */,
+				B080FF7B550F40BFB7624CC5 /* Debug */,
+				AAB123D2D86B4A27A8FB8524 /* Release */,
+				79242C26C8214755A216653C /* MinSizeRel */,
+				C3AF3D32C3B24BB0B82AF108 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D4F292D8B69E443BB60744D4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		B68D332C8AD841EF80426D9E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C51ECAD5F3F541A4B4B0436A /* Debug */,
-				ABEA44F70EC54C7AB1663BF2 /* Release */,
-				376F24E0CD6D42A4B7B66041 /* MinSizeRel */,
-				F11D54137DCC4F6FBF83D1A2 /* RelWithDebInfo */,
+				86F53A1AAA92426BBAE3327E /* Debug */,
+				44395F3FAC3D4D3682EFAD62 /* Release */,
+				E90A26347E1848D0898CDCD6 /* MinSizeRel */,
+				02DA8A1564E64EDF8FE4B68C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B598F9A35480466888A5E42B /* Project object */;
+	rootObject = 7004E3A61C6546DC8BC23103 /* Project object */;
 }

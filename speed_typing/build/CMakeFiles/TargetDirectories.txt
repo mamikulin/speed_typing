@@ -1,3 +1,0 @@
-/Users/mikemikulin/desktop/speed_typing/speed_typing/build/CMakeFiles/speed_typing.dir
-/Users/mikemikulin/desktop/speed_typing/speed_typing/build/CMakeFiles/ALL_BUILD.dir
-/Users/mikemikulin/desktop/speed_typing/speed_typing/build/CMakeFiles/ZERO_CHECK.dir

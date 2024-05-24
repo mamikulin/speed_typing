@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Target 'speed_typing' in project 'speed_typing'
-➜ Explicit dependency on target 'ZERO_CHECK' in project 'speed_typing'
-Target 'ZERO_CHECK' in project 'speed_typing' (no dependencies)
