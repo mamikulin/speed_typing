@@ -1,0 +1,232 @@
+<?xml version='1.0'?>
+<!DOCTYPE signatures SYSTEM "file://localhost/System/Library/DTDs/BridgeSupport.dtd">
+<signatures version='1.0'>
+<constant name='ITLibMediaEntityPropertyPersistentID' type64='@'/>
+<constant name='ITLibMediaItemPropertyAddedDate' type64='@'/>
+<constant name='ITLibMediaItemPropertyAlbumArtist' type64='@'/>
+<constant name='ITLibMediaItemPropertyAlbumDiscCount' type64='@'/>
+<constant name='ITLibMediaItemPropertyAlbumDiscNumber' type64='@'/>
+<constant name='ITLibMediaItemPropertyAlbumIsCompilation' type64='@'/>
+<constant name='ITLibMediaItemPropertyAlbumIsGapless' type64='@'/>
+<constant name='ITLibMediaItemPropertyAlbumRating' type64='@'/>
+<constant name='ITLibMediaItemPropertyAlbumRatingComputed' type64='@'/>
+<constant name='ITLibMediaItemPropertyAlbumTitle' type64='@'/>
+<constant name='ITLibMediaItemPropertyAlbumTrackCount' type64='@'/>
+<constant name='ITLibMediaItemPropertyArtistName' type64='@'/>
+<constant name='ITLibMediaItemPropertyArtwork' type64='@'/>
+<constant name='ITLibMediaItemPropertyBeatsPerMinute' type64='@'/>
+<constant name='ITLibMediaItemPropertyBitRate' type64='@'/>
+<constant name='ITLibMediaItemPropertyCategory' type64='@'/>
+<constant name='ITLibMediaItemPropertyComments' type64='@'/>
+<constant name='ITLibMediaItemPropertyComposer' type64='@'/>
+<constant name='ITLibMediaItemPropertyContentRating' type64='@'/>
+<constant name='ITLibMediaItemPropertyDescription' type64='@'/>
+<constant name='ITLibMediaItemPropertyFileSize' type64='@'/>
+<constant name='ITLibMediaItemPropertyFileType' type64='@'/>
+<constant name='ITLibMediaItemPropertyGenre' type64='@'/>
+<constant name='ITLibMediaItemPropertyGrouping' type64='@'/>
+<constant name='ITLibMediaItemPropertyHasArtwork' type64='@'/>
+<constant name='ITLibMediaItemPropertyIsDRMProtected' type64='@'/>
+<constant name='ITLibMediaItemPropertyIsPurchased' type64='@'/>
+<constant name='ITLibMediaItemPropertyIsUserDisabled' type64='@'/>
+<constant name='ITLibMediaItemPropertyIsVideo' type64='@'/>
+<constant name='ITLibMediaItemPropertyKind' type64='@'/>
+<constant name='ITLibMediaItemPropertyLastPlayDate' type64='@'/>
+<constant name='ITLibMediaItemPropertyLocation' type64='@'/>
+<constant name='ITLibMediaItemPropertyLocationType' type64='@'/>
+<constant name='ITLibMediaItemPropertyLyricsContentRating' type64='@'/>
+<constant name='ITLibMediaItemPropertyMediaKind' type64='@'/>
+<constant name='ITLibMediaItemPropertyModifiedDate' type64='@'/>
+<constant name='ITLibMediaItemPropertyMovementCount' type64='@'/>
+<constant name='ITLibMediaItemPropertyMovementName' type64='@'/>
+<constant name='ITLibMediaItemPropertyMovementNumber' type64='@'/>
+<constant name='ITLibMediaItemPropertyPlayCount' type64='@'/>
+<constant name='ITLibMediaItemPropertyPlayStatus' type64='@'/>
+<constant name='ITLibMediaItemPropertyRating' type64='@'/>
+<constant name='ITLibMediaItemPropertyRatingComputed' type64='@'/>
+<constant name='ITLibMediaItemPropertyReleaseDate' type64='@'/>
+<constant name='ITLibMediaItemPropertySampleRate' type64='@'/>
+<constant name='ITLibMediaItemPropertySize' type64='@'/>
+<constant name='ITLibMediaItemPropertySkipDate' type64='@'/>
+<constant name='ITLibMediaItemPropertySortAlbumArtist' type64='@'/>
+<constant name='ITLibMediaItemPropertySortAlbumTitle' type64='@'/>
+<constant name='ITLibMediaItemPropertySortArtistName' type64='@'/>
+<constant name='ITLibMediaItemPropertySortComposer' type64='@'/>
+<constant name='ITLibMediaItemPropertySortTitle' type64='@'/>
+<constant name='ITLibMediaItemPropertyStartTime' type64='@'/>
+<constant name='ITLibMediaItemPropertyStopTime' type64='@'/>
+<constant name='ITLibMediaItemPropertyTitle' type64='@'/>
+<constant name='ITLibMediaItemPropertyTotalTime' type64='@'/>
+<constant name='ITLibMediaItemPropertyTrackNumber' type64='@'/>
+<constant name='ITLibMediaItemPropertyUserSkipCount' type64='@'/>
+<constant name='ITLibMediaItemPropertyVideoEpisode' type64='@'/>
+<constant name='ITLibMediaItemPropertyVideoEpisodeOrder' type64='@'/>
+<constant name='ITLibMediaItemPropertyVideoHeight' type64='@'/>
+<constant name='ITLibMediaItemPropertyVideoIsHD' type64='@'/>
+<constant name='ITLibMediaItemPropertyVideoSeason' type64='@'/>
+<constant name='ITLibMediaItemPropertyVideoSeries' type64='@'/>
+<constant name='ITLibMediaItemPropertyVideoSortSeries' type64='@'/>
+<constant name='ITLibMediaItemPropertyVideoWidth' type64='@'/>
+<constant name='ITLibMediaItemPropertyVoiceOverLanguage' type64='@'/>
+<constant name='ITLibMediaItemPropertyVolumeAdjustment' type64='@'/>
+<constant name='ITLibMediaItemPropertyVolumeNormalizationEnergy' type64='@'/>
+<constant name='ITLibMediaItemPropertyWork' type64='@'/>
+<constant name='ITLibMediaItemPropertyYear' type64='@'/>
+<constant name='ITLibPlaylistPropertyAllItemsPlaylist' type64='@'/>
+<constant name='ITLibPlaylistPropertyDistinguisedKind' type64='@'/>
+<constant name='ITLibPlaylistPropertyItems' type64='@'/>
+<constant name='ITLibPlaylistPropertyKind' type64='@'/>
+<constant name='ITLibPlaylistPropertyMaster' type64='@'/>
+<constant name='ITLibPlaylistPropertyName' type64='@'/>
+<constant name='ITLibPlaylistPropertyParentPersistentID' type64='@'/>
+<constant name='ITLibPlaylistPropertyPrimary' type64='@'/>
+<constant name='ITLibPlaylistPropertyVisible' type64='@'/>
+<constant name='ITLibraryDidChangeNotification' type64='@'/>
+<enum name='ITLibArtworkFormatBMP' value64='6'/>
+<enum name='ITLibArtworkFormatBitmap' value64='1'/>
+<enum name='ITLibArtworkFormatGIF' value64='4'/>
+<enum name='ITLibArtworkFormatJPEG' value64='2'/>
+<enum name='ITLibArtworkFormatJPEG2000' value64='3'/>
+<enum name='ITLibArtworkFormatNone' value64='0'/>
+<enum name='ITLibArtworkFormatPICT' value64='8'/>
+<enum name='ITLibArtworkFormatPNG' value64='5'/>
+<enum name='ITLibArtworkFormatTIFF' value64='7'/>
+<enum name='ITLibDistinguishedPlaylistKind90sMusic' value64='42'/>
+<enum name='ITLibDistinguishedPlaylistKindApplications' value64='51'/>
+<enum name='ITLibDistinguishedPlaylistKindAudiobooks' value64='4'/>
+<enum name='ITLibDistinguishedPlaylistKindBooks' value64='4'/>
+<enum name='ITLibDistinguishedPlaylistKindClassicalMusic' value64='48'/>
+<enum name='ITLibDistinguishedPlaylistKindHomeVideos' value64='50'/>
+<enum name='ITLibDistinguishedPlaylistKindLibraryMusicVideos' value64='49'/>
+<enum name='ITLibDistinguishedPlaylistKindLovedSongs' value64='52'/>
+<enum name='ITLibDistinguishedPlaylistKindMovies' value64='1'/>
+<enum name='ITLibDistinguishedPlaylistKindMusic' value64='3'/>
+<enum name='ITLibDistinguishedPlaylistKindMusicShowsAndMovies' value64='53'/>
+<enum name='ITLibDistinguishedPlaylistKindMusicVideos' value64='47'/>
+<enum name='ITLibDistinguishedPlaylistKindMyTopRated' value64='43'/>
+<enum name='ITLibDistinguishedPlaylistKindNone' value64='0'/>
+<enum name='ITLibDistinguishedPlaylistKindPodcasts' value64='7'/>
+<enum name='ITLibDistinguishedPlaylistKindPurchases' value64='16'/>
+<enum name='ITLibDistinguishedPlaylistKindRecentlyAdded' value64='46'/>
+<enum name='ITLibDistinguishedPlaylistKindRecentlyPlayed' value64='45'/>
+<enum name='ITLibDistinguishedPlaylistKindRingtones' value64='5'/>
+<enum name='ITLibDistinguishedPlaylistKindTVShows' value64='2'/>
+<enum name='ITLibDistinguishedPlaylistKindTop25MostPlayed' value64='44'/>
+<enum name='ITLibDistinguishedPlaylistKindVoiceMemos' value64='14'/>
+<enum name='ITLibDistinguishedPlaylistKindiTunesU' value64='26'/>
+<enum name='ITLibExportFeatureNone' value64='0'/>
+<enum name='ITLibInitOptionLazyLoadData' value64='1'/>
+<enum name='ITLibInitOptionNone' value64='0'/>
+<enum name='ITLibMediaItemLocationTypeFile' value64='1'/>
+<enum name='ITLibMediaItemLocationTypeRemote' value64='3'/>
+<enum name='ITLibMediaItemLocationTypeURL' value64='2'/>
+<enum name='ITLibMediaItemLocationTypeUnknown' value64='0'/>
+<enum name='ITLibMediaItemLyricsContentRatingClean' value64='2'/>
+<enum name='ITLibMediaItemLyricsContentRatingExplicit' value64='1'/>
+<enum name='ITLibMediaItemLyricsContentRatingNone' value64='0'/>
+<enum name='ITLibMediaItemMediaKindAlertTone' value64='21'/>
+<enum name='ITLibMediaItemMediaKindAudiobook' value64='5'/>
+<enum name='ITLibMediaItemMediaKindBook' value64='19'/>
+<enum name='ITLibMediaItemMediaKindDigitalBooklet' value64='15'/>
+<enum name='ITLibMediaItemMediaKindHomeVideo' value64='12'/>
+<enum name='ITLibMediaItemMediaKindIOSApplication' value64='16'/>
+<enum name='ITLibMediaItemMediaKindInteractiveBooklet' value64='9'/>
+<enum name='ITLibMediaItemMediaKindMovie' value64='3'/>
+<enum name='ITLibMediaItemMediaKindMusicVideo' value64='7'/>
+<enum name='ITLibMediaItemMediaKindPDFBook' value64='20'/>
+<enum name='ITLibMediaItemMediaKindPDFBooklet' value64='6'/>
+<enum name='ITLibMediaItemMediaKindPodcast' value64='4'/>
+<enum name='ITLibMediaItemMediaKindRingtone' value64='14'/>
+<enum name='ITLibMediaItemMediaKindSong' value64='2'/>
+<enum name='ITLibMediaItemMediaKindTVShow' value64='8'/>
+<enum name='ITLibMediaItemMediaKindUnknown' value64='1'/>
+<enum name='ITLibMediaItemMediaKindVoiceMemo' value64='17'/>
+<enum name='ITLibMediaItemMediaKindiTunesU' value64='18'/>
+<enum name='ITLibMediaItemPlayStatusNone' value64='0'/>
+<enum name='ITLibMediaItemPlayStatusPartiallyPlayed' value64='1'/>
+<enum name='ITLibMediaItemPlayStatusUnplayed' value64='2'/>
+<enum name='ITLibPlaylistKindFolder' value64='3'/>
+<enum name='ITLibPlaylistKindGenius' value64='2'/>
+<enum name='ITLibPlaylistKindGeniusMix' value64='4'/>
+<enum name='ITLibPlaylistKindRegular' value64='0'/>
+<enum name='ITLibPlaylistKindSmart' value64='1'/>
+<class name='ITLibAlbum'>
+<method selector='isCompilation'>
+<retval type64='B'/>
+</method>
+<method selector='isGapless'>
+<retval type64='B'/>
+</method>
+<method selector='isRatingComputed'>
+<retval type64='B'/>
+</method>
+</class>
+<class name='ITLibMediaEntity'>
+<method selector='enumerateValuesExceptForProperties:usingBlock:'>
+<arg function_pointer='true' index='1' type64='@?'>
+<arg type64='@'/>
+<arg type64='@'/>
+<arg type64='^B'/>
+<retval type64='v'/>
+</arg>
+</method>
+<method selector='enumerateValuesForProperties:usingBlock:'>
+<arg function_pointer='true' index='1' type64='@?'>
+<arg type64='@'/>
+<arg type64='@'/>
+<arg type64='^B'/>
+<retval type64='v'/>
+</arg>
+</method>
+</class>
+<class name='ITLibMediaItem'>
+<method selector='hasArtworkAvailable'>
+<retval type64='B'/>
+</method>
+<method selector='isCloud'>
+<retval type64='B'/>
+</method>
+<method selector='isDRMProtected'>
+<retval type64='B'/>
+</method>
+<method selector='isPurchased'>
+<retval type64='B'/>
+</method>
+<method selector='isRatingComputed'>
+<retval type64='B'/>
+</method>
+<method selector='isUserDisabled'>
+<retval type64='B'/>
+</method>
+<method selector='isVideo'>
+<retval type64='B'/>
+</method>
+</class>
+<class name='ITLibMediaItemVideoInfo'>
+<method selector='isHD'>
+<retval type64='B'/>
+</method>
+</class>
+<class name='ITLibPlaylist'>
+<method selector='isAllItemsPlaylist'>
+<retval type64='B'/>
+</method>
+<method selector='isMaster'>
+<retval type64='B'/>
+</method>
+<method selector='isPrimary'>
+<retval type64='B'/>
+</method>
+<method selector='isVisible'>
+<retval type64='B'/>
+</method>
+</class>
+<class name='ITLibrary'>
+<method selector='reloadData'>
+<retval type64='B'/>
+</method>
+<method selector='shouldShowContentRating'>
+<retval type64='B'/>
+</method>
+</class>
+</signatures>

@@ -20,7 +20,68 @@
 		8AAEEB8D2BFC129A00BE62E5 /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AAEEB822BFC129900BE62E5 /* User.cpp */; };
 		8AAEEB8E2BFC129A00BE62E5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AAEEB832BFC129A00BE62E5 /* main.cpp */; };
 		8AAEEB8F2BFC129A00BE62E5 /* ModeStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AAEEB852BFC129A00BE62E5 /* ModeStrategy.cpp */; };
+		EB4DEAD12C00DC5B0010A50E /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC12C00DC490010A50E /* sfml-window.framework */; };
+		EB4DEAD22C00DC5B0010A50E /* sfml-window.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC12C00DC490010A50E /* sfml-window.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB4DEAD32C00DC5B0010A50E /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC22C00DC4A0010A50E /* sfml-network.framework */; };
+		EB4DEAD42C00DC5B0010A50E /* sfml-network.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC22C00DC4A0010A50E /* sfml-network.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB4DEAD52C00DC5B0010A50E /* CoreRepairKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC32C00DC4A0010A50E /* CoreRepairKit.framework */; };
+		EB4DEAD62C00DC5B0010A50E /* CoreRepairKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC32C00DC4A0010A50E /* CoreRepairKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB4DEAD72C00DC5B0010A50E /* ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC42C00DC4B0010A50E /* ogg.framework */; };
+		EB4DEAD82C00DC5B0010A50E /* ogg.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC42C00DC4B0010A50E /* ogg.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB4DEAD92C00DC5B0010A50E /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC52C00DC4C0010A50E /* sfml-audio.framework */; };
+		EB4DEADA2C00DC5B0010A50E /* sfml-audio.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC52C00DC4C0010A50E /* sfml-audio.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB4DEADB2C00DC5B0010A50E /* CoreRepairCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC62C00DC4C0010A50E /* CoreRepairCore.framework */; };
+		EB4DEADC2C00DC5B0010A50E /* CoreRepairCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC62C00DC4C0010A50E /* CoreRepairCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB4DEADD2C00DC5B0010A50E /* freetype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC72C00DC4D0010A50E /* freetype.framework */; };
+		EB4DEADE2C00DC5B0010A50E /* freetype.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC72C00DC4D0010A50E /* freetype.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB4DEADF2C00DC5B0010A50E /* iTunesLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC82C00DC4E0010A50E /* iTunesLibrary.framework */; };
+		EB4DEAE02C00DC5B0010A50E /* iTunesLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC82C00DC4E0010A50E /* iTunesLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB4DEAE12C00DC5B0010A50E /* vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC92C00DC4E0010A50E /* vorbis.framework */; };
+		EB4DEAE22C00DC5B0010A50E /* vorbis.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAC92C00DC4E0010A50E /* vorbis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB4DEAE32C00DC5B0010A50E /* FLAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEACA2C00DC4F0010A50E /* FLAC.framework */; };
+		EB4DEAE42C00DC5B0010A50E /* FLAC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEACA2C00DC4F0010A50E /* FLAC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB4DEAE52C00DC5B0010A50E /* vorbisenc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEACB2C00DC500010A50E /* vorbisenc.framework */; };
+		EB4DEAE62C00DC5B0010A50E /* vorbisenc.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEACB2C00DC500010A50E /* vorbisenc.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB4DEAE72C00DC5B0010A50E /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEACC2C00DC510010A50E /* sfml-graphics.framework */; };
+		EB4DEAE82C00DC5B0010A50E /* sfml-graphics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEACC2C00DC510010A50E /* sfml-graphics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB4DEAE92C00DC5B0010A50E /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEACD2C00DC520010A50E /* SFML.framework */; };
+		EB4DEAEA2C00DC5B0010A50E /* SFML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEACD2C00DC520010A50E /* SFML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB4DEAEB2C00DC5B0010A50E /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEACE2C00DC580010A50E /* sfml-system.framework */; };
+		EB4DEAEC2C00DC5B0010A50E /* sfml-system.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEACE2C00DC580010A50E /* sfml-system.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB4DEAED2C00DC5B0010A50E /* vorbisfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEACF2C00DC590010A50E /* vorbisfile.framework */; };
+		EB4DEAEE2C00DC5B0010A50E /* vorbisfile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEACF2C00DC590010A50E /* vorbisfile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB4DEAEF2C00DC5B0010A50E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAD02C00DC5A0010A50E /* OpenAL.framework */; };
+		EB4DEAF02C00DC5B0010A50E /* OpenAL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4DEAD02C00DC5A0010A50E /* OpenAL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB4DEAF12C00DC5B0010A50E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EB4DEAE02C00DC5B0010A50E /* iTunesLibrary.framework in Embed Frameworks */,
+				EB4DEAD22C00DC5B0010A50E /* sfml-window.framework in Embed Frameworks */,
+				EB4DEAE42C00DC5B0010A50E /* FLAC.framework in Embed Frameworks */,
+				EB4DEADE2C00DC5B0010A50E /* freetype.framework in Embed Frameworks */,
+				EB4DEADA2C00DC5B0010A50E /* sfml-audio.framework in Embed Frameworks */,
+				EB4DEAEC2C00DC5B0010A50E /* sfml-system.framework in Embed Frameworks */,
+				EB4DEAEE2C00DC5B0010A50E /* vorbisfile.framework in Embed Frameworks */,
+				EB4DEAD42C00DC5B0010A50E /* sfml-network.framework in Embed Frameworks */,
+				EB4DEADC2C00DC5B0010A50E /* CoreRepairCore.framework in Embed Frameworks */,
+				EB4DEAD82C00DC5B0010A50E /* ogg.framework in Embed Frameworks */,
+				EB4DEAE22C00DC5B0010A50E /* vorbis.framework in Embed Frameworks */,
+				EB4DEAF02C00DC5B0010A50E /* OpenAL.framework in Embed Frameworks */,
+				EB4DEAE62C00DC5B0010A50E /* vorbisenc.framework in Embed Frameworks */,
+				EB4DEAD62C00DC5B0010A50E /* CoreRepairKit.framework in Embed Frameworks */,
+				EB4DEAEA2C00DC5B0010A50E /* SFML.framework in Embed Frameworks */,
+				EB4DEAE82C00DC5B0010A50E /* sfml-graphics.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8AAEEB062BFC0CFE00BE62E5 /* speed_typing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speed_typing.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +105,24 @@
 		8AAEEB842BFC129A00BE62E5 /* ModeStrategy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ModeStrategy.hpp; sourceTree = "<group>"; };
 		8AAEEB852BFC129A00BE62E5 /* ModeStrategy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ModeStrategy.cpp; sourceTree = "<group>"; };
 		8AAEEB862BFC129A00BE62E5 /* Button.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Button.hpp; sourceTree = "<group>"; };
+		EB4DEABF2C00DBF90010A50E /*  */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ""; path = ../../../..; sourceTree = "<group>"; };
+		EB4DEAC02C00DC240010A50E /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Frameworks; path = ../../../../Library/Frameworks; sourceTree = "<group>"; };
+		EB4DEAC12C00DC490010A50E /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "../../../../Library/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
+		EB4DEAC22C00DC4A0010A50E /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../../../Library/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
+		EB4DEAC32C00DC4A0010A50E /* CoreRepairKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreRepairKit.framework; path = ../../../../Library/Frameworks/CoreRepairKit.framework; sourceTree = "<group>"; };
+		EB4DEAC42C00DC4B0010A50E /* ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ogg.framework; path = ../../../../Library/Frameworks/ogg.framework; sourceTree = "<group>"; };
+		EB4DEAC52C00DC4C0010A50E /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../../../Library/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
+		EB4DEAC62C00DC4C0010A50E /* CoreRepairCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreRepairCore.framework; path = ../../../../Library/Frameworks/CoreRepairCore.framework; sourceTree = "<group>"; };
+		EB4DEAC72C00DC4D0010A50E /* freetype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = freetype.framework; path = ../../../../Library/Frameworks/freetype.framework; sourceTree = "<group>"; };
+		EB4DEAC82C00DC4E0010A50E /* iTunesLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iTunesLibrary.framework; path = ../../../../System/Library/Frameworks/iTunesLibrary.framework; sourceTree = "<group>"; };
+		EB4DEAC92C00DC4E0010A50E /* vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbis.framework; path = ../../../../Library/Frameworks/vorbis.framework; sourceTree = "<group>"; };
+		EB4DEACA2C00DC4F0010A50E /* FLAC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLAC.framework; path = ../../../../Library/Frameworks/FLAC.framework; sourceTree = "<group>"; };
+		EB4DEACB2C00DC500010A50E /* vorbisenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbisenc.framework; path = ../../../../Library/Frameworks/vorbisenc.framework; sourceTree = "<group>"; };
+		EB4DEACC2C00DC510010A50E /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../../../Library/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+		EB4DEACD2C00DC520010A50E /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = ../../../../Library/Frameworks/SFML.framework; sourceTree = "<group>"; };
+		EB4DEACE2C00DC580010A50E /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../../../Library/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		EB4DEACF2C00DC590010A50E /* vorbisfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbisfile.framework; path = ../../../../Library/Frameworks/vorbisfile.framework; sourceTree = "<group>"; };
+		EB4DEAD02C00DC5A0010A50E /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = ../../../../Library/Frameworks/OpenAL.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +130,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4DEADF2C00DC5B0010A50E /* iTunesLibrary.framework in Frameworks */,
+				EB4DEAD12C00DC5B0010A50E /* sfml-window.framework in Frameworks */,
+				EB4DEAE32C00DC5B0010A50E /* FLAC.framework in Frameworks */,
+				EB4DEADD2C00DC5B0010A50E /* freetype.framework in Frameworks */,
+				EB4DEAD92C00DC5B0010A50E /* sfml-audio.framework in Frameworks */,
+				EB4DEAEB2C00DC5B0010A50E /* sfml-system.framework in Frameworks */,
+				EB4DEAED2C00DC5B0010A50E /* vorbisfile.framework in Frameworks */,
+				EB4DEAD32C00DC5B0010A50E /* sfml-network.framework in Frameworks */,
+				EB4DEADB2C00DC5B0010A50E /* CoreRepairCore.framework in Frameworks */,
+				EB4DEAD72C00DC5B0010A50E /* ogg.framework in Frameworks */,
+				EB4DEAE12C00DC5B0010A50E /* vorbis.framework in Frameworks */,
+				EB4DEAEF2C00DC5B0010A50E /* OpenAL.framework in Frameworks */,
+				EB4DEAE52C00DC5B0010A50E /* vorbisenc.framework in Frameworks */,
+				EB4DEAD52C00DC5B0010A50E /* CoreRepairKit.framework in Frameworks */,
+				EB4DEAE92C00DC5B0010A50E /* SFML.framework in Frameworks */,
+				EB4DEAE72C00DC5B0010A50E /* sfml-graphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +157,7 @@
 			children = (
 				8AAEEB422BFC11D400BE62E5 /* speed_typing */,
 				8AAEEB072BFC0CFE00BE62E5 /* Products */,
+				EB4DEABE2C00DBF90010A50E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +228,31 @@
 			path = include;
 			sourceTree = "<group>";
 		};
+		EB4DEABE2C00DBF90010A50E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB4DEACF2C00DC590010A50E /* vorbisfile.framework */,
+				EB4DEAC02C00DC240010A50E /* Frameworks */,
+				EB4DEACE2C00DC580010A50E /* sfml-system.framework */,
+				EB4DEAC12C00DC490010A50E /* sfml-window.framework */,
+				EB4DEACC2C00DC510010A50E /* sfml-graphics.framework */,
+				EB4DEAC22C00DC4A0010A50E /* sfml-network.framework */,
+				EB4DEAC62C00DC4C0010A50E /* CoreRepairCore.framework */,
+				EB4DEAC32C00DC4A0010A50E /* CoreRepairKit.framework */,
+				EB4DEAC82C00DC4E0010A50E /* iTunesLibrary.framework */,
+				EB4DEAC42C00DC4B0010A50E /* ogg.framework */,
+				EB4DEAD02C00DC5A0010A50E /* OpenAL.framework */,
+				EB4DEAC52C00DC4C0010A50E /* sfml-audio.framework */,
+				EB4DEACA2C00DC4F0010A50E /* FLAC.framework */,
+				EB4DEAC72C00DC4D0010A50E /* freetype.framework */,
+				EB4DEACD2C00DC520010A50E /* SFML.framework */,
+				EB4DEAC92C00DC4E0010A50E /* vorbis.framework */,
+				EB4DEACB2C00DC500010A50E /* vorbisenc.framework */,
+				EB4DEABF2C00DBF90010A50E /*  */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +264,7 @@
 				8AAEEB022BFC0CFE00BE62E5 /* Frameworks */,
 				8AAEEB032BFC0CFE00BE62E5 /* Resources */,
 				8AAEEB042BFC0CFE00BE62E5 /* ShellScript */,
+				EB4DEAF12C00DC5B0010A50E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -332,6 +454,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "speed_typing/speed_typing-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -342,6 +468,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "speed_typing/speed_typing-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

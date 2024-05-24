@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ilamatveev/Desktop/speed_typing/speed_typing
+# Install script for directory: /Users/mikemikulin/desktop/speed_typing/speed_typing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,7 +37,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-set(CMAKE_BINARY_DIR "/Users/ilamatveev/Desktop/speed_typing/speed_typing/build")
+set(CMAKE_BINARY_DIR "/Users/mikemikulin/desktop/speed_typing/speed_typing/build")
 
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/ilamatveev/Desktop/speed_typing/speed_typing/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mikemikulin/desktop/speed_typing/speed_typing/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

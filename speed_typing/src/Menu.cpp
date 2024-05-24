@@ -250,7 +250,7 @@ void Menu::handleMouseClick(const sf::Vector2i& mousePos, sf::Event& event) {
         } else if (resultsButton.isClicked(mousePosF)) {
             showResults = true;
         } else if (startButton.isClicked(mousePosF)) {
-                    startTraining();
+            startTraining();
         } else if (showResults && backButton.isClicked(mousePosF)) {
             showResults = false;
         }
