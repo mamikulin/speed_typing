@@ -26,8 +26,8 @@ Menu::Menu()
       resultsButton(),
       confirmButton(),
       backButton(),
-      loginBox(300, 450, 200, 40, font),
-      passwordBox(300, 500, 200, 40, font),
+      loginBox(300, 250, 200, 40, font),
+      passwordBox(300, 300, 200, 40, font),
       userManager(),
       isEnteringCredentials(false),
       showResults(false),
@@ -46,7 +46,7 @@ Menu::Menu()
     createButton(loginButton, "Login", 300, 200);
     createButton(startButton, "Start Training", 300, 300);
     createButton(resultsButton, "Results", 300, 400);
-    createButton(confirmButton, "Confirm", 300, 550);
+    createButton(confirmButton, "Confirm", 300, 350);
     createButton(backButton, "Back", 700, 550);
 
     // Initialize texts for training mode
