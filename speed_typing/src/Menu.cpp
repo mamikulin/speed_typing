@@ -72,7 +72,13 @@ Menu::Menu()
     userInputText.setCharacterSize(30); // in pixels, not points!
     userInputText.setFillColor(sf::Color::Blue);
     userInputText.setPosition(window.getSize().x / 2.0f, window.getSize().y / 2.0f - 50);
+          sf::Image icon;
+          if (!icon.loadFromFile(resourcePath() + "icon.png")) {
+              return EXIT_FAILURE;
+          }
+          window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
 }
+
 
 
 
@@ -126,6 +132,7 @@ void Menu::handleTrainingEvents(sf::Event& event) {
                     k++;
                     count++;
                     if (k == messageText.getString().getSize()) {
+                        
                         messageText.setString(give_message());
                         k = 0;
                         userInput.clear();
